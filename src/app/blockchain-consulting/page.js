@@ -715,9 +715,10 @@ function page() {
                 <span
                   className="fs-6 position-absolute bottom-100 px-4 py-2 rounded"
                   style={{
-                    backgroundColor: "lavender",
-                    color: "blue",
+                    backgroundColor: "rgb(255, 241, 241)",
+                    color: "red",
                   }}
+                 
                 >
                   eBook
                 </span>
@@ -742,9 +743,10 @@ function page() {
                 <span
                   className="fs-6 position-absolute bottom-100 px-4 py-2 rounded"
                   style={{
-                    backgroundColor: "lavender",
-                    color: "blue",
+                    backgroundColor: "rgb(255, 241, 241)",
+                    color: "red",
                   }}
+                 
                 >
                   Blog
                 </span>
@@ -769,9 +771,10 @@ function page() {
                 <span
                   className="fs-6 position-absolute bottom-100 px-4 py-2 rounded"
                   style={{
-                    backgroundColor: "lavender",
-                    color: "blue",
+                    backgroundColor: "rgb(255, 241, 241)",
+                    color: "red",
                   }}
+                 
                 >
                   Contribution
                 </span>
@@ -785,7 +788,7 @@ function page() {
       </div>
       {/* =============================================================================================================================================== */}
 
-      <div className="bg-dark-blue">
+      <div className="bg-dark-grey">
         <div className="container mt-5 p-3 text-white">
           <div className=" p-3 mb-3 text-center">
             <h2 className="fw-bold  text-dark">Ready to Get Started with Backstage?</h2>

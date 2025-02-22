@@ -263,9 +263,9 @@ function page() {
 
                             <div className="position-relative mt-3 py-3">
                                 <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded" style={{
-                                    backgroundColor: "lavender",
-                                    color: "blue"
-                                }}>Tech Talk</span>
+                    backgroundColor: "rgb(255, 241, 241)",
+                    color: "red",
+                  }}>Tech Talk</span>
 
                                 {/* Heading */}
                                 <h5 className="mb-2 ">Monitoring Kubernetes Clusters by “chatting” with them</h5>
@@ -286,9 +286,9 @@ function page() {
 
                             <div className="position-relative mt-3 py-3">
                                 <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded" style={{
-                                    backgroundColor: "lavender",
-                                    color: "blue"
-                                }}>Blog</span>
+                    backgroundColor: "rgb(255, 241, 241)",
+                    color: "red",
+                  }}>Blog</span>
 
                                 {/* Heading */}
                                 <h5 className="mb-2 ">Building a Modern Chatops Platform</h5>
@@ -308,10 +308,10 @@ function page() {
                             </div>
 
                             <div className="position-relative mt-3 py-3">
-                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded" style={{
-                                    backgroundColor: "lavender",
-                                    color: "blue"
-                                }}>Tech Talk</span>
+                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded"  style={{
+                    backgroundColor: "rgb(255, 241, 241)",
+                    color: "red",
+                  }}>Tech Talk</span>
 
                                 {/* Heading */}
                                 <h5 className="mb-2 ">Kubernetes Monitoring Made Simple with BotKube</h5>

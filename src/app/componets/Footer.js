@@ -401,12 +401,12 @@ function Footer() {
               </div>
 
               <div className="d-md-flex d-block justify-content-center">
-                <p className="mx-2 text-secondary">© 2024 Tequre - Unleash Growth!</p>
-                <p className="mx-2 text-secondary">Terms</p>
-                <p className="mx-2 text-secondary">Privacy</p>
-                <p className="mx-2 text-secondary">Equal Opportunity</p>
-                <p className="mx-2 text-secondary">Sitemap</p>
-                <p className="mx-4 text-secondary">Global Presence : <span className="mx-2">India</span> <span className="mx-2">USA</span></p>
+                <p className="mx-2 text-light">© 2024 Tequre - Unleash Growth!</p>
+                <p className="mx-2 text-light">Terms</p>
+                <p className="mx-2 text-light">Privacy</p>
+                <p className="mx-2 text-light">Equal Opportunity</p>
+                <p className="mx-2 text-light">Sitemap</p>
+                <p className="mx-4 text-light">Global Presence : <span className="mx-2">India</span> <span className="mx-2">USA</span></p>
               </div>
             </div>
           </div>

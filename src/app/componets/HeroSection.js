@@ -24,9 +24,9 @@ function HeroSection() {
         <div className="row d-flex justify-content-center heroSectionContent">
           <div className="col-lg-8  col-md-10 col-12 p-2">
             <h1>Build AI Cloud with Kubernetes & Open Source</h1>
-            <p className="my-4">
+            <p className="my-4 we-help-para">
               We help build GPU Cloud, modernize applications and infrastructure with our expertise in cloud native
-              technologies.
+              technologies.     technologies........
             </p>
           </div>
         </div>

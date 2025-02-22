@@ -173,7 +173,7 @@ function page() {
 
                     <div className="text-center py-4 px-2">
 
-                        <button className="btn btn-success shadow my-auto "
+                        <button className=" btn-success shadow my-auto contact-btn"
                             style={{ background: "#C0202E", borderRadius: "15px", border: "none" }}
                         >Contact Us</button>
                     </div>
@@ -292,10 +292,10 @@ function page() {
                             </div>
 
                             <div className="position-relative mt-3 py-3">
-                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded" style={{
-                                    backgroundColor: "lavender",
-                                    color: "blue"
-                                }}>Blog</span>
+                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded"  style={{
+                    backgroundColor: "rgb(255, 241, 241)",
+                    color: "red",
+                  }}>Blog</span>
 
                                 {/* Heading */}
                                 <h5 className="mb-2 ">Writing Serverless Workloads on Kubernetes using Fission</h5>
@@ -315,10 +315,10 @@ function page() {
                             </div>
 
                             <div className="position-relative mt-3 py-3">
-                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded" style={{
-                                    backgroundColor: "lavender",
-                                    color: "blue"
-                                }}>Tech Talk</span>
+                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded"  style={{
+                    backgroundColor: "rgb(255, 241, 241)",
+                    color: "red",
+                  }}>Tech Talk</span>
 
                                 {/* Heading */}
                                 <h5 className="mb-2 ">Hands-on Introduction to Fission</h5>
@@ -338,10 +338,10 @@ function page() {
                             </div>
 
                             <div className="position-relative mt-3 py-3">
-                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded" style={{
-                                    backgroundColor: "lavender",
-                                    color: "blue"
-                                }}>Case Study</span>
+                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded"  style={{
+                    backgroundColor: "rgb(255, 241, 241)",
+                    color: "red",
+                  }}>Case Study</span>
 
                                 {/* Heading */}
                                 <h5 className="mb-2 ">Building a Faas Platform on Kubernetes</h5>

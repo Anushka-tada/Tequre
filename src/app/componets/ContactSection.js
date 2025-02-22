@@ -98,7 +98,7 @@ function ContactSection() {
               </div>
               
               <div className="col-12 justify-content-center d-flex">
-                <button type="submit" className=" send-message" style={{background:"#C0202E", border:"none"}}>
+                <button type="submit" className=" send-message">
                   Send Message
                 </button>
               </div>

@@ -367,7 +367,7 @@ export default function AiCloud() {
       </div>
       {/* Swipper Container */}
       <div className="top-to-bottom-color">
-        <div className="container r mt-5">
+        <div className="container r mt-5 pt-5">
           <div className="s text-center">
             <h3 className="fw-bold pt-5 pt-lg-0 ">Team with Diverse Set of AI Cloud Expertise</h3>
             <p className="text-gray">
@@ -376,7 +376,7 @@ export default function AiCloud() {
           </div>
 
           {/* Swipper */}
-          <div id="carouselExampleSlidesOnly" className="carousel slide border border-dark" data-ride="carousel">
+          <div id="carouselExampleSlidesOnly" className="carousel slide border border-secondary" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" style={{ width: "200px" }}>
                 <img src="https://picsum.photos/100" className="d-block w-100" alt="Image1" />
@@ -482,7 +482,7 @@ export default function AiCloud() {
         </div>
       </div>
       {/* above footer */}
-      <div className="bg-dark-blue py-lg-5 py-2">
+      <div className="bg-dark-grey py-lg-5 py-2">
         <div className="container">
           <div className=" mt-5  text-white row">
             <div className=" p-3 mb-3  col-lg-6 col-12">
@@ -493,7 +493,7 @@ export default function AiCloud() {
                 services.
               </p>
               {/* Paragraph */}
-              <p>Trusted by 100+ companies worldwide</p>
+              <p className="text-dark">Trusted by 100+ companies worldwide</p>
 
               {/* Horizontal Line */}
               <hr className="my-2" />
