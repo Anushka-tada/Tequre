@@ -3,7 +3,7 @@ import Navbar from "./componets/Navbar";
 import HeroSection from "./componets/HeroSection";
 import ContactSection from "./componets/ContactSection";
 import Footer from "./componets/Footer";
-import HomeSlider from "./componets/HomeSlider";
+import ZigzagSection from "./ZigzagSection";
 import { useState } from "react";
 
 export default function Home() {
@@ -196,7 +196,8 @@ export default function Home() {
         </div>
       </div>
 
-      <HomeSlider data={sliderData} />
+     
+      <ZigzagSection data={sliderData} />
       {/* We are a company which enables start-up and enterprise section start */}
       <div className="my-5 py-5 companyStripSection" style={{ background: "#fff" }}>
         <div className="row m-0 p-0">
