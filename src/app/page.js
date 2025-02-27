@@ -198,6 +198,9 @@ export default function Home() {
 
      
       <ZigzagSection data={sliderData} />
+     <div className="road-end">
+     <img src="https://cdn-icons-png.flaticon.com/512/2536/2536650.png" alt="" height={50} width={50} />
+     </div>
       {/* We are a company which enables start-up and enterprise section start */}
       <div className="my-5 py-5 companyStripSection" style={{ background: "#fff" }}>
         <div className="row m-0 p-0">

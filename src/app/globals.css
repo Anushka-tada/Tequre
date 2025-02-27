@@ -462,7 +462,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,250,250,1) 20
    /* zig zag css */
 
 
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
   
@@ -518,4 +518,192 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,250,250,1) 20
 .item{
   width: 40%;
 }
+ */
 
+
+ /* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.zig-zag-container {
+  margin-top: 200px;
+  position: relative;
+}
+
+.zigzag-item {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.left .road-wrapper {
+  margin-left: 20px;
+}
+
+.right .road-wrapper {
+  margin-right: 20px;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -24%;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.smaller-img {
+  width: 80%;
+}
+
+.smaller-heading {
+  font-size: 1.5rem;
+}
+
+.smaller-para {
+  font-size: 1rem;
+}
+
+.smaller-btn {
+  font-size: 0.875rem;
+}
+
+.empty-side {
+  min-height: 200px;
+}
+
+.item {
+  width: 40%;
+}
+
+.road-wrapper {
+  position: relative;
+}
+
+.road {
+  width: 50px;
+  height: 200px;
+  stroke-dasharray: 19 19;
+  background-color: #007bff;
+} */
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.zig-zag-container {
+  margin-top: 200px;
+  position: relative;
+}
+
+.zigzag-item {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -24%;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.smaller-img {
+  width: 80%;
+}
+
+.smaller-heading {
+  font-size: 1.5rem;
+}
+
+.smaller-para {
+  font-size: 1rem;
+}
+
+.smaller-btn {
+  font-size: 0.875rem;
+}
+
+.empty-side {
+  min-height: 200px;
+}
+
+.item {
+  width: 40%;
+}
+
+/* .road-image{
+  transform: rotate(90deg);
+position: absolute;
+top: 200px;
+left: 20%;
+}
+.road-image-2{
+  transform: rotate(90deg);
+  position: absolute;
+  left: 21.6%;
+  top: 1000px;
+} */
+.road-image{
+  transform: rotate(90deg);
+position: absolute;
+/* top: 200px; */
+height: 140px;
+width: 470px;
+left: 35% ;
+}
+
+.road-end{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   left: 54%;
+}
+
+/* Additional CSS for the wavy road */
+/* Additional CSS for the wavy road */
+/* .road-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to bottom,
+    #007bff 0%,
+    #08213c 25%,
+    transparent 25%,
+    transparent 50%
+  );
+  background-size: 50px 100px;
+  z-index: -1;
+  clip-path: polygon(0% 0%, 50% 25%, 0% 50%, 50% 75%, 0% 100%);
+} */
