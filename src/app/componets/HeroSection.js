@@ -1,4 +1,5 @@
 import React from "react";
+import banner from "../banner.jpeg"
 
 function HeroSection() {
   const cartItem = [
@@ -33,8 +34,9 @@ function HeroSection() {
 
         <div className="mx-lg-5 mx-0">
           <img
-            src="https://www.infracloud.io/assets/img/home/infracloud-homepage-hero-image.svg"
-            className="img-fluid "
+            src="https://media-hosting.imagekit.io//8f29c64ee09842ab/banner.jpeg?Expires=1835331540&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YrcEABd7VJmQXQd~Jo2UmbUGZ07FxzS7MilqyVBcCSBGWjMAXChMJgfuVGc-wPNg5~-YgNqXLg3~qBJMnZxM5nqH1taLGHGmO4d4IDDAXSMXJN~G~IUtMNW251fbhuzc9KWTJI2uYvG97S-8ey2VvDMJXt3HKvMrQ0RCO185RJkO5DCWozN1Ggn6~5YieFszg1TREHP1lHirYNzeg87QAmtXYrFFAiXmqc2zUbmXXLXTIUrXO1M4z78pGAawhc8PIZz8qYDclsrtERyav~3lthmHS2FFOBw2fjgkzN90Sn4ZZafs~M-nqsxeiRQqtn1sLSq~WlQrv1HhXzbPqjb1xw__"
+            className="img-fluid  banner-img"
+             
           />
         </div>
       </div>

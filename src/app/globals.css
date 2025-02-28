@@ -800,6 +800,18 @@ z-index: 1;
   }
 
 }
+
+.banner-img{
+  width: 1200px !important;
+  height: 590px !important;
+}
+ 
+@media (max-widht:900px){
+  .banner-img{
+    width: 100%  !important;
+    height: 80% !important;
+  }
+}
 /* Additional CSS for the wavy road */
 /* Additional CSS for the wavy road */
 /* .road-wrapper {
