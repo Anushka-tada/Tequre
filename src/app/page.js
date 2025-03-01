@@ -9,19 +9,19 @@ import { useState } from "react";
 export default function Home() {
   const cloudData = [
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-training-infrastructure.svg",
+      img: "https://media-hosting.imagekit.io//fb5d7d4dc0ab48e1/WhatsApp%20Image%202025-03-01%20at%2015.43.00_2934049e.jpg?Expires=1835432670&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ILXicbCWCjZ5UpegnSUwHutRa0snCvUqnNrgDk-mk1GBbKehB-9zcsW6VWRXACv0UMAu34XubqCn5NSr3rBtjlOSBwxCLnsZMpc-vBYuVo6pQf0dfoYNh2rhYNG6uwugJnNZ~wAwP7GCxrqcrI2ZulA-d2HLcq8fS6OYVu5t2bUVHKC6slJEw8WJkgNeA089azQW8BvUt5Bp8GVYnTG4vyxxXtMZ0KO2X02GbTE26r4pNQWUCq1iXJCYhXNZzZsVmaOvr2dfPysUU9ZrDC8sIIY0dwzHqyybm-B4ZoOuYIf1TRxcCdvVZM738VCIKBQlfHSDJgv7w2209x3xI2hWUQ__",
       heading: "Build GPU Cloud",
       para: "Build an AI Cloud with GPUs or other processing units & open source technologies. Our expertise in bare metal provisioning with Tinkerbell, private cloud with OpenStack and cloud native technologies such as Kubernetes, Prometheus, and Kubeflow have enabled organizations to build private/public GPU cloud.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/source-code-repo-ci-cd.svg",
+      img: "https://media-hosting.imagekit.io//6e52bb8fee324fe4/WhatsApp%20Image%202025-03-01%20at%2015.49.49_b46d87e7.jpg?Expires=1835432770&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ik~1sp5Nzo2qaAzGH5hrGAAy4lOJuczJOe~4LkcTLxrBQwAxNLVR31yS7X9EWikcWDXNEyRStHiySn6ksVCYZRyDJYZg9w2rrc~1xiB-d6Lo1eugiQd5ven6xIvXugU~8dZsukDSXn29GeUQ-tiqqp27Id-MVuj2-X3OWucv-deNakDWY5E9jQHpSyd7-4hyRUYoRsyBKR9~GHsnHdMJBPZ8XfNFqHatAMvgqoISxu8A8ACWw~07Kfzu8~VwUDtluZUiWafmMDQbeo4Gel9xvHsvRN38hBFlU6Ax4FPMdYoNHNQwMjojk~DKy2sTyyYfJiXS19EPes-tWNAHYFdjmQ__",
       heading: "CI/CD for Code, Data & Models",
       para: "Setting up the right source code practices & a way to continuously integrate and deliver code along with data & models is crucial for the success of an AI platform. We have coached on practices that work & built pipelines for organizations to deliver business goals to production seamlessly.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/data-prep-workflow-orchestration.svg",
+      img: "https://media-hosting.imagekit.io//7f1e10958c8047cd/WhatsApp%20Image%202025-03-01%20at%2015.43.01_a90a3bd4.jpg?Expires=1835432841&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=DjBH4DPcYr93oybJBUuG-o91HKW9MWhPUqJoGdcJfZBluVlPBz4SNGQOdoyAeCQMvToZiG0ZqlWpp7mp9ZRBZNIoGl12vDIbWf-xmcHZF7itkeybRVa42mTU-U0EP1CGdN-kE29GUlrtLXpU7kWmbXWgG9G5NDUQZEirVasWm4hQMzXHDylsn8FIRe9po4st8Cz6XjQXv-DOHo5gpVUSqxBihmqBsFdN12fWlRqA5JvHY-kCKwLmFE3~dIbkUwPSsFVdMJ3gVMg5DwR-7a9HGL0B6XEa0IxyvT4ZtpualJPbVEjAgUm576RdyGwccRQ3YHJczqxS106Ri8z1YDoAxg__",
       heading: "Workflow Orchestration",
       para: "Orchestrating the workflows of data pipelines and executing them at scale is crucial to an AI platform. We build, deploy, and scale workflow orchestration systems on scalable infrastructure to execute them at the speed of business needs.",
       link: "/ai-cloud",
