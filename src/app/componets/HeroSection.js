@@ -34,7 +34,7 @@ function HeroSection() {
 
         <div className="mx-lg-5 mx-0">
           <img
-            src="https://media-hosting.imagekit.io//8f29c64ee09842ab/banner.jpeg?Expires=1835331540&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YrcEABd7VJmQXQd~Jo2UmbUGZ07FxzS7MilqyVBcCSBGWjMAXChMJgfuVGc-wPNg5~-YgNqXLg3~qBJMnZxM5nqH1taLGHGmO4d4IDDAXSMXJN~G~IUtMNW251fbhuzc9KWTJI2uYvG97S-8ey2VvDMJXt3HKvMrQ0RCO185RJkO5DCWozN1Ggn6~5YieFszg1TREHP1lHirYNzeg87QAmtXYrFFAiXmqc2zUbmXXLXTIUrXO1M4z78pGAawhc8PIZz8qYDclsrtERyav~3lthmHS2FFOBw2fjgkzN90Sn4ZZafs~M-nqsxeiRQqtn1sLSq~WlQrv1HhXzbPqjb1xw__"
+            src="https://media-hosting.imagekit.io//884da26ac9cb4ee3/new-banner.jpg?Expires=1835704110&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=2L94B8FBFmrMFLDq3xLcqj5rOALQOTcHOi~kfB6BHcgKnfKPM2-EVhvgnzfHZ2N9kc1BAICAdbf56x7KiKeVAScQRzOe3BDCkG1KNQsqw6niKBdKjLrF4skxOCx5qJ9QlKa7RlkGjgzVyQXrBWAYfkJMYKDi2dX4CNfeI6Tm4vC75bHov5WXzHy4nsLRg7pDJoHhjVX8kOpY9VQQfgyuQZJxESnfvboUXuE7QEwGmcewkdYKeGQHA2PB4nFRU8PHi8CSCelvgFNc2QMUa5xcvU2mnHYFUfkNtgi89v7Op1WyWeKN5TmOKpUjhaSIVLLzJlgicZgoJqvKCKU5Ek7yqg__"
             className="img-fluid  banner-img"
              
           />
