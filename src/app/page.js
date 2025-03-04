@@ -27,26 +27,26 @@ export default function Home() {
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-registry-metadata-stores.svg",
+      img: "https://media-hosting.imagekit.io//d5a5457134054e09/WhatsApp%20Image%202025-03-03%20at%2011.43.30_c5293700.jpg?Expires=1835702318&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=sZ0mQ6PgrElffl1Pv7ZxDD0WQJtoYuqGY62Sa0UChm2Vc7dRRopfCL3aswQv~TpArAWPb1Y43fR4qyOXnLa5saP5WO6QzFxX0OnwqZInYDI-ASDm2d4PRb8S6Y1ybUbboe-YavsXYo0hwb6J78w0MM3t3cghnhuFyBFTIjVNYderclQu3aHSDfWhn9Li2y9QYToCwlMklL1Nz6ot5Lb3t4fKwCAgv-7QGtW5FU-V6WTGWhGws30JwXfv1j3HIGaJIzsxsBbMAfYdn3dnK1tp7-tBJTDkYH9Mk2Fr2K2GWnS207OdSc4PK6Z4d2e7Afo~zd5r8zXcC34-ZRbRjoVF2w__",
       heading: "Model Registry & Metadata Stores",
       para: "A distributed & stable model registry needed to serve the right model when an application is needed is crucial for an AI platform that is global in nature. It is also crucial to capture the right metadata of models in a registry or separate database, depending on business needs.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/feature-stores.svg",
+      img: "https://media-hosting.imagekit.io//2c87af9a805e42cc/WhatsApp%20Image%202025-03-03%20at%2011.43.31_e10342ac.jpg?Expires=1835702340&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jzQPpQdTQ6sYnu7ES9gz7JKPZmfQFmufA7dTkstmprv4SQl8JtBFK9XTahAhnNFgjAmuyUvNR~Tn5LqLEzhCIwCE6ZqFGKkxHq92LXarNh2BGJ-18abHBRyk3CSnmBQsITO7kYCpdEWW13WpJCSHz5v9n9VfQfXV0EW~J7bXN6B8rDi3EOXVhj6IAatnv-IOXGu7OHob1-MY-KooyzSaY66eEgZjXGn~fBPcdPuCD91W0ErU1ZSQSGuXhFT8w9Guc0r6K~rQmS1h~Y308iyETHgxeV2RHNgRmCS1mtuBWCinvLCsGnnnksjNh-makZqvxZQh10-JgpfTJiXmwrxBRg__",
       heading: "Feature Stores",
       para: "A feature store that can serve the needs of model training as well as in the prediction request path is needed for the AI platform to deliver value to both sets of customers successfully. We build & deploy these on right infrastructure based on the needs of the business.",
       link: "/ai-cloud",
     },
 
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-serving.svg",
+      img: "https://media-hosting.imagekit.io//2640b1bdba8044f7/WhatsApp%20Image%202025-03-03%20at%2011.43.29_0354b084.jpg?Expires=1835702276&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=j-qPefSS18yfoAzNfyOWlU6uv0svZwXpwe0iXutMb1NnBMAwbstbHOJdCz2J37qo8O5GD~3GWg68OXzt1M2ZRBApaSCiCyBeVfr5rrxxUXl4XQPIuwOXmt5IJp8UgZLj4~nDDJjT2k~KxXWo4KBfEQzBL4V7tyZ1aw1FqhJRtw6R-f8qHw4MKHtaOl0OmmsiXrXqSEPb5agc4iTphjAa3aEYNVU6JyY5c6TYPLeny2GTaIswXL46qk1eViFWZ59iSDFXkHtfe5gE-2mUhWRyTAd28ilRexbsiQq9E~S60yEawUNg6yhUebbQdD1bdf~queSpOt62nuVpwok5SdNLjA__",
       heading: "Model Serving",
-      para: "Serving models to end users in request path, with accuracy & low latency not only improves user experience but also business value. We deploy and configure the serving components to deliver to users.",
+      para: "Serving models to end users in the request path, with accuracy & low latency, not only improves user experience but also business value. We deploy and meticulously configure the serving components to reliably deliver to users",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-observability-feedback-loops.svg",
+      img: "https://media-hosting.imagekit.io//2c87af9a805e42cc/WhatsApp%20Image%202025-03-03%20at%2011.43.31_e10342ac.jpg?Expires=1835702340&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jzQPpQdTQ6sYnu7ES9gz7JKPZmfQFmufA7dTkstmprv4SQl8JtBFK9XTahAhnNFgjAmuyUvNR~Tn5LqLEzhCIwCE6ZqFGKkxHq92LXarNh2BGJ-18abHBRyk3CSnmBQsITO7kYCpdEWW13WpJCSHz5v9n9VfQfXV0EW~J7bXN6B8rDi3EOXVhj6IAatnv-IOXGu7OHob1-MY-KooyzSaY66eEgZjXGn~fBPcdPuCD91W0ErU1ZSQSGuXhFT8w9Guc0r6K~rQmS1h~Y308iyETHgxeV2RHNgRmCS1mtuBWCinvLCsGnnnksjNh-makZqvxZQh10-JgpfTJiXmwrxBRg__",
       heading: "Model Observability & Feedback Loops",
       para: "Redirecting requests to the right model and observing the accuracy of results & model performance is crucial to ensuring the intended & actual business outcomes are aligned. We use a combination of infra and model observability technologies to achieve this.",
       link: "/ai-cloud",
