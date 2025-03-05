@@ -37,9 +37,10 @@
   border-radius: 30px !important;
 }
 .heroSectionContent {
-  margin-top: -50px !important;
+  margin-top: 85px !important;
 }
 .heroSectionContent h1 {
+  margin-top: 22px;
   font-size: 30px;
   color: #40444c;
   font-family: sans-serif;
@@ -684,7 +685,7 @@ left: 20%;
   transform: rotate(90deg) !important;
 position: absolute;
 /* top: 200px; */
-height: 140px;
+height: 130px;
 width: 470px !important;
 left: 35% ;
 z-index: 1;
@@ -802,8 +803,8 @@ z-index: 1;
 }
 
 .banner-img{
-  width: 1200px !important;
-  height: 590px !important;
+  width: 1100px !important;
+  height: 470px !important;
 }
  
 @media (max-widht:900px){
@@ -812,23 +813,29 @@ z-index: 1;
     height: 80% !important;
   }
 }
-/* Additional CSS for the wavy road */
-/* Additional CSS for the wavy road */
-/* .road-wrapper {
+.main-div{
+  background-color: #f3f8fd;
+/* background-color: rgb(245, 243, 244); */
+/* background-color: #edf2f4; */
+/* background-color: #fffcf2; */
+/* background-color: #e9ecef; */
+}
+
+
+.modal-content {
+  position: relative;
+}
+
+.modal-content::before {
+  content: '';
   position: absolute;
-  top: 0;
-  left: 50%;
+  top: -10px;
+  left: var(--triangle-position, 50%);
   transform: translateX(-50%);
-  width: 50px;
-  height: 100%;
-  background: repeating-linear-gradient(
-    to bottom,
-    #007bff 0%,
-    #08213c 25%,
-    transparent 25%,
-    transparent 50%
-  );
-  background-size: 50px 100px;
-  z-index: -1;
-  clip-path: polygon(0% 0%, 50% 25%, 0% 50%, 50% 75%, 0% 100%);
-} */
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  z-index: 1;
+}
