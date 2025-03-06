@@ -481,6 +481,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,250,250,1) 20
 .zig-zag-container {
   margin-top: 200px;
   position: relative;
+  padding-bottom: 10px;
 }
 
 .zigzag-item {
@@ -488,6 +489,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,250,250,1) 20
   justify-content: space-between;
   position: relative;
   z-index: 1;
+  height: 420px;
 }
 
 .flex-item {
@@ -618,7 +620,7 @@ z-index: 1;
    
     width: 45px;
     height: 45px;
-    left: 104%;
+    left: 116%;
      top: -7%;
 
   }
@@ -636,6 +638,14 @@ z-index: 1;
   
     margin-top: 0;
   }
+  .zigzag-item {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    height: 580px;
+    width: 75%;
+  }
   
   
 }
@@ -644,7 +654,7 @@ z-index: 1;
    
     width: 45px;
     height: 45px;
-    left: 123%;
+    left: 132%;
      top: -17%;
 
   }
@@ -652,13 +662,12 @@ z-index: 1;
 
 }
 
-@media (max-width:1080px){
+@media (max-width:800px){
   .location-box{
    
     width: 0px;
     height: 0px;
     
-
   }
   .road-image{
     height: 0;
@@ -670,7 +679,14 @@ z-index: 1;
     height: 0;
     display: none;
   }
-
+  .zigzag-item {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+  }
 }
 
 .banner-img{
