@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Head from 'next/head';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,6 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
        <link rel="icon" href="./companyFavicon.png" />
       <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -43,6 +45,7 @@ export default function RootLayout({ children }) {
   href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
 />
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet"/>
+    </head>
                 
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}

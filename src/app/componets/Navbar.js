@@ -254,7 +254,7 @@ function Navbar({selectedItem}) {
               <div className="modal-content servicePopup" >
                 <div className="modal-body navPopBg p-0 shadow" style={{ borderRadius: ".3rem" }}>
                   <div className="container">
-                    <div className="row m-0 py-2  px-0">
+                    <div className="row m-0 py-2  px-0 row-block">
                       {serviceNavItem?.map((v, i) => {
                         return (
                           <Link href={v?.url} className="col-6 m-0 p-0 text-dark text-decoration-none">
@@ -291,7 +291,7 @@ function Navbar({selectedItem}) {
               <div className="modal-content servicePopup" >
                 <div className="modal-body navPopBg p-0 shadow" style={{ borderRadius: ".3rem" }}>
                   <div className="container">
-                    <div className="row m-0 py-2 px-0">
+                    <div className="row m-0 py-2 px-0 row-block">
                       {consultingItem?.map((v, i) => {
                         return (
                           <Link href={v?.url} className="col-6 m-0 p-0 text-dark text-decoration-none">
@@ -328,7 +328,7 @@ function Navbar({selectedItem}) {
               <div className="modal-content servicePopup" >
                 <div className="modal-body navPopBg p-0 shadow" style={{ borderRadius: ".3rem" }}>
                   <div className="container">
-                    <div className="row m-0 py-2 px-0">
+                    <div className="row m-0 py-2 px-0 row-block">
                       {applicationCLoudItem?.map((v, i) => {
                         return (
                           <Link href={v?.url}  className="col-6 m-0 p-0 text-dark text-decoration-none" >
@@ -365,7 +365,7 @@ function Navbar({selectedItem}) {
               <div className="modal-content servicePopup">
                 <div className="modal-body navPopBg p-0 shadow" style={{ borderRadius: ".3rem" }}>
                   <div className="container">
-                    <div className="row m-0 py-2 px-0">
+                    <div className="row m-0 py-2 px-0 row-block">
                       {solutionNavItem?.map((v, i) => {
                         return (
                           <Link href={v?.url}  className="col-6 m-0 p-0 text-dark text-decoration-none" >
