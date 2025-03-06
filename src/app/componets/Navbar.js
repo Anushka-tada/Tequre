@@ -250,11 +250,11 @@ function Navbar({selectedItem}) {
        
         {showServiceModal && (
           <div className="modal show d-block" tabIndex="-1" role="dialog" style={{ top: "60px" }}>
-            <div className="modal-dialog" role="document">
-              <div className="modal-content servicePopup">
+            <div className="modal-dialog service-modal" role="document" >
+              <div className="modal-content servicePopup" >
                 <div className="modal-body navPopBg p-0 shadow" style={{ borderRadius: ".3rem" }}>
                   <div className="container">
-                    <div className="row m-0 py-2 px-0">
+                    <div className="row m-0 py-2  px-0">
                       {serviceNavItem?.map((v, i) => {
                         return (
                           <Link href={v?.url} className="col-6 m-0 p-0 text-dark text-decoration-none">
@@ -263,7 +263,7 @@ function Navbar({selectedItem}) {
                               className="d-flex   m-2 p-3  subSubMenuDiv"
                               style={{ borderRadius: "12px" }}
                             >
-                              <div className=" d-flex     ">
+                              <div className=" d-flex">
                                 <img src={v?.img} style={{height:"45px"}} />
                               </div>
                               <div className=" mx-2 px-2  w-100">
@@ -287,8 +287,8 @@ function Navbar({selectedItem}) {
         )}
         {showConsultingModal && (
           <div className="modal show d-block" tabIndex="-1" role="dialog" style={{ top: "60px" }}>
-            <div className="modal-dialog" role="document">
-              <div className="modal-content servicePopup">
+            <div className="modal-dialog consulting-modal" role="document" >
+              <div className="modal-content servicePopup" >
                 <div className="modal-body navPopBg p-0 shadow" style={{ borderRadius: ".3rem" }}>
                   <div className="container">
                     <div className="row m-0 py-2 px-0">
@@ -324,8 +324,8 @@ function Navbar({selectedItem}) {
         )}
         {showApplicationCLoudModule && (
           <div className="modal show d-block" tabIndex="-1" role="dialog" style={{ top: "60px" }}>
-            <div className="modal-dialog" role="document">
-              <div className="modal-content servicePopup">
+            <div className="modal-dialog application-cloud" role="document"  >
+              <div className="modal-content servicePopup" >
                 <div className="modal-body navPopBg p-0 shadow" style={{ borderRadius: ".3rem" }}>
                   <div className="container">
                     <div className="row m-0 py-2 px-0">
@@ -361,7 +361,7 @@ function Navbar({selectedItem}) {
         )}
         {showSolutionsModule && (
           <div className="modal show d-block" tabIndex="-1" role="dialog" style={{ top: "60px" }}>
-            <div className="modal-dialog" role="document">
+            <div className="modal-dialog solution-model" role="document">
               <div className="modal-content servicePopup">
                 <div className="modal-body navPopBg p-0 shadow" style={{ borderRadius: ".3rem" }}>
                   <div className="container">

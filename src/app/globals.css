@@ -145,7 +145,15 @@
 }
 .servicePopup {
   width: 800px !important;
+  display: flex;
   left: -120px;
+}
+@media (max-width: 853px){
+  .servicePopup{
+    width: 90% !important;
+    left: 20px ;
+  }
+
 }
 .subMenuDiv p {
   font-family: "Poppins", sans-serif;
@@ -781,7 +789,7 @@ z-index: 1;
 
 }
 
-@media (max-width:788px){
+@media (max-width:1195px){
   .location-box{
    
     width: 0px;
@@ -810,7 +818,13 @@ z-index: 1;
 @media (max-widht:900px){
   .banner-img{
     width: 100%  !important;
-    height: 80% !important;
+    height: 100% !important;
+  }
+}
+@media (max-widht:525px){
+  .banner-img{
+    width: 100%  !important;
+    height: 70% !important;
   }
 }
 .main-div{
@@ -822,8 +836,12 @@ z-index: 1;
 }
 
 
+
+/* navbar triangle code */
+
 .modal-content {
   position: relative;
+ 
 }
 
 .modal-content::before {
@@ -832,10 +850,40 @@ z-index: 1;
   top: -10px;
   left: var(--triangle-position, 50%);
   transform: translateX(-50%);
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid white;
+  width: 0px;
+  height: 0px;
+ 
+
+   border-left: 10px solid transparent; 
+  border-right: 10px solid transparent;  
+   border-bottom: 10px solid rgb(131, 131, 131); 
+
   z-index: 1;
 }
+
+.service-modal .modal-content::before{
+  left: var(--triangle-position, 28%);
+  transform: translateX(-28%);
+}
+
+.consulting-modal .modal-content::before{
+  left: var(--triangle-position, 43%);
+  transform: translateX(-43%);
+}
+
+.application-cloud .modal-content::before{
+  left: var(--triangle-position, 65%);
+  transform: translateX(-65%);
+}
+.solution-model .modal-content::before{
+  left: var(--triangle-position, 86%);
+  transform: translateX(-86%);
+}
+
+@media (max-width: 984px){
+  .modal-content::before{
+    display: none;
+  }
+}
+
+
