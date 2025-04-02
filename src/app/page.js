@@ -9,44 +9,44 @@ import { useState } from "react";
 export default function Home() {
   const cloudData = [
     {
-      img: "https://media-hosting.imagekit.io//bc27f63bbfcc4471/zigzag2.png?Expires=1835788659&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=sjXWaeX81721RXs3~Ezwyc6STFksnc998Tiqd6rQQVVB3sBiPRhOcK~hvLMjMhmA7NYqr5PlfcSDW0ek7aKuYufjRj9HxT7rnKJOp-p8AXRAmR9qlPWMG6EnkI78j7hTmq631jgyXVpCN~-mgQLy1ssdTbIivyZxUylB-8Z6~mh1fDX15SK5CVrqU3ECYZt8oV4IiSv7yVJXDPv49IlaX0T8gsfrQdFcwHZQGLkVA7WQQKN-kj1kdlQQOA93e7rWiby8d5XwhvAwPSwwz8lalhmQKLX3Gw170kwgCmG0pc2WtP-qk8BcL~atlhzN~yw7cUJDwBfrJev6qY4985ySMQ__",
+      img: "/assets/01.png",
       heading: "Build GPU Cloud",
       para: "Build an AI Cloud with GPUs or other processing units & open source technologies. Our expertise in bare metal provisioning with Tinkerbell, private cloud with OpenStack and cloud native technologies such as Kubernetes, Prometheus, and Kubeflow have enabled organizations to build private/public GPU cloud.",
       link: "/ai-cloud",
     },
     {
-      img: "https://media-hosting.imagekit.io//897e133361ec4d83/zigzag3.png?Expires=1835788659&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mF5BV1QowvEbpuDhHJ-XyB0L55QN95sIsdK2E4UtUMaOCZiJjFlb66eBYXm6-pvpjdeq6bzXxqFc5hnUeCa8VCu76JePCz9tG5ZLh-4mYbXJM1BZ0flkOTXbrSivfQDXoybBu~ry7DDXcc0VYaQzhEtYEPLoWHCfCzrom76C5pYFXQ~uv~VUuPv82-T~EfIDlu6yXlxPuZODU~zBjaZCC0aMCgNlogcWae2Fkli7yAuyt~b0wEU43u3uqkU8bv~gZIFiRf3G408CPfouXwCLruozSyuOZubTbkcte~vgSXBIJf2diBcLh~lCFyMENt27Z0cEVmvjDa2JZTy55xH90w__",
+      img: "/assets/02.png",
       heading: "CI/CD for Code, Data & Models",
       para: "Setting up the right source code practices & a way to continuously integrate and deliver code along with data & models is crucial for the success of an AI platform. We have coached on practices that work & built pipelines for organizations to deliver business goals to production seamlessly.",
       link: "/ai-cloud",
     },
     {
-      img: "https://media-hosting.imagekit.io//4a4d05604212472a/zigzag1.png?Expires=1835788659&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ur6GAp2MhpCAduu3bvq6piHCZnQnYlYetLVE7ezT75hxO44U55Twf0-7thCSlrBtcwp2SCGb6B6gqFAn0K2e3GoUyoMNePKCRiEMMes6cjLfsFAl6G2PeNTi6rrM0yzpEZXGL5u7XuOivk3H62I7JA9IM8~1RQ5RYuV1Hnf~8AcQ~4RoP60OSrNfQsq8IAwcQdgAPqdASfubwXiSFAVzAeFqQbcj~w9aPMv~dfaWwZz1C~xhkwFkw3gTuWzIw0nv1HLxCmaEHM7djV2737cDo-RjLym40hCoHIKwFVTCygAjfH0gL~xujVABzpjSX60CHcVAflZcntwlBYvAXQ4ybg__",
+      img: "/assets/03.png",
       heading: "Workflow Orchestration",
       para: "Orchestrating the workflows of data pipelines and executing them at scale is crucial to an AI platform. We build, deploy, and scale workflow orchestration systems on scalable infrastructure to execute them at the speed of business needs.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-registry-metadata-stores.svg",
+      img: "/assets/04.png",
       heading: "Model Registry & Metadata Stores",
       para: "A distributed & stable model registry needed to serve the right model when an application is needed is crucial for an AI platform that is global in nature. It is also crucial to capture the right metadata of models in a registry or separate database, depending on business needs.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/feature-stores.svg",
+      img: "/assets/05.png",
       heading: "Feature Stores",
       para: "A feature store that can serve the needs of model training as well as in the prediction request path is needed for the AI platform to deliver value to both sets of customers successfully. We build & deploy these on right infrastructure based on the needs of the business.",
       link: "/ai-cloud",
     },
 
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-serving.svg",
+      img: "/assets/06.png",
       heading: "Model Serving",
       para: "Serving models to end users in request path, with accuracy & low latency not only improves user experience but also business value. We deploy and configure the serving components to deliver to users.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-observability-feedback-loops.svg",
+      img: "/assets/07.png",
       heading: "Model Observability & Feedback Loops",
       para: "Redirecting requests to the right model and observing the accuracy of results & model performance is crucial to ensuring the intended & actual business outcomes are aligned. We use a combination of infra and model observability technologies to achieve this.",
       link: "/ai-cloud",
@@ -150,9 +150,11 @@ export default function Home() {
       <HeroSection />
       {/* We are a company which enables start-up and enterprise section start */}
       <div className="my-5 py-5 companyStripSection p-2">
-        <h3 className="text-center mb-4">
-          We are a company which enables <span style={{ color: "#C0202E" }}>start-up and enterprise section</span>
+       <div className="companyStripSection-heading px-4">
+       <h3 className="text-center mb-4 company-heading">
+          We are a company which enables start-up and enterprise section
         </h3>
+       </div>
         <p className="text-lg-center mx-lg-5 p-2" style={{textAlign:"justify"}}>
           A team of young technology enthusiasts focused to carve out the path for delivering high quality software
           products to solve the complex business problems using next generation technologies. Tequre emphases on easing
@@ -165,7 +167,7 @@ export default function Home() {
       </div>
       {/* We are a company which enables start-up and enterprise section end */}
       <div className="d-flex justify-content-center mb-4">
-        <div className="d-flex justify-content-center shadow-sm bg-white p-2 navTabMain">
+        <div className="d-flex justify-content-center shadow-sm  p-2 navTabMain">
           <div
             onClick={() => {
               setSliderData(cloudData);

@@ -215,21 +215,34 @@
 .gradient-bg {
   background: linear-gradient(180deg, #eef4ff 0%, #fff 300px);
 }
+
+.companyStripSection-heading{
+   padding-top: 14px;
+  border-radius: 20px;
+background-color: #fdc11f;
+
+}
+
 .companyStripSection h3 {
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 4px;
+   
   font-size: 30px;
-  font-weight: 500;
-  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: #1c3668;
+  font-weight: 900;
 }
 .companyStripSection p {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   margin-bottom: 4px;
-  font-size: 16px;
-  opacity: 0.8;
+  font-size: 17px;
+  
   line-height: 30px;
+  text-transform: uppercase;
+  color: #000;
 }
 .companyStripSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: whitesmoke;
 }
 
@@ -395,19 +408,22 @@
   text-align: justify !important;
 }
 .navTabMain {
-  border-radius: 30px;
-  background-color: #dbf6ff;
-  border: 1px solid rgb(232, 232, 232);
+  border-radius: 10px;
+  background-color: #1b3567;
+ color: white;
+  
 }
 .navTab {
   /* background-color: #FAFBFF; */
   font-family: poppins;
   border-radius: 24px;
-  opacity: 0.7;
-  width: 160px;
+  /* opacity: 0.7; */
+  width: 180px;
   font-size: 14px;
   text-align: center;
   cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .opacity1 {
   opacity: 1 !important;
@@ -440,8 +456,13 @@
 
 
 .selcted-navTabMain{
-  background-color: #c0202e;
+ 
+border-radius: 10px;
+background-color: #fdc11f;
   color: white;
+  text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
 }
 .send-message{
   background-color: #c0202e;
@@ -482,9 +503,12 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,250,250,1) 20
 }
 
 .zig-zag-container {
-  margin-top: 200px;
+  /* margin-top: 200px; */
   position: relative;
   padding-bottom: 10px;
+  margin: 200px 0px 0px;
+
+
 }
 
 .zigzag-item {
@@ -519,10 +543,18 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,250,250,1) 20
 
 .smaller-heading {
   font-size: 1.5rem;
+ 
+text-transform: uppercase;
+color: #1b3667;
+font-weight: 900;
+
 }
 
 .smaller-para {
   font-size: 1rem;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
 }
 
 .smaller-btn {
@@ -566,14 +598,20 @@ width: 470px !important;
 left: 35% ;
 z-index: 1;
 }
-
-.location-box{
+.outer-location-box{
+  background-color: #fdc11f;
   position: absolute;
-  width: 70px;
-  height: 70px;
   left: 54%;
    top: -20%;
  z-index: 3;
+ padding: 15px;
+}
+
+.location-box{
+ 
+  width: 35px;
+  height: 30px;
+  
  ;
   transition: transform 0.3s ease, box-shadow 0.3s
 }
@@ -581,6 +619,17 @@ z-index: 1;
   transform: scale(2);
 
 }
+
+/* .zigzag-img1{
+   position: absolute;
+   left: 0;
+   width: 500px;
+   bottom: 400;
+}
+.zigzag-img2{
+  
+} */
+
 
 /* Add this to your CSS file */
 @keyframes fadeInUp {
@@ -808,8 +857,10 @@ body , html{
 }
 
 .navbar{
+  
     padding: 0 !important;
-    /* background-image: url("/assets/backround.jpg"); */
+    background-image: url("/assets/backround.jpg");
+
 }
 
 .logo{
@@ -950,3 +1001,4 @@ overflow: hidden;
   color: white;
   width: 40px !important;
 }
+
