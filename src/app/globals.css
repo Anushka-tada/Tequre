@@ -794,6 +794,7 @@ body{
 
 .navbar{
     padding: 0 !important;
+    background-image: url("/assets/backround.jpg");
 }
 
 .logo{
