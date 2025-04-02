@@ -205,7 +205,7 @@ export default function Home() {
       <div className="my-5 py-5 companyStripSection" style={{ background: "#fff" }}>
         <div className="row m-0 p-0">
           <div className="col-md-6 col-12 my-auto">
-            <h3 className="text-center mb-4">
+            <h3 className="text-center mb-4 ">
               Brands That <span style={{ color: "#C0202E" }}>Trust Us</span>
             </h3>
             <p className="text-center mx-lg-5">
@@ -214,25 +214,25 @@ export default function Home() {
           </div>
           <div className="col-md-6 col-12">
             <div className="row">
-              <div className="col-6  p-2  d-flex justify-content-end " style={{ height: "140px" }}>
+              <div className="col-6  p-2  d-flex justify-content-end " style={{ height: "120px" }}>
                 <img
                   src="https://tequre.com/wp-content/uploads/2020/05/genx.jpg"
                   className="img-fluid m-2 shadow rounded"
                 />
               </div>
-              <div className="col-6 p-0 d-flex  justify-content-start " style={{ height: "140px" }}>
+              <div className="col-6 p-0 d-flex  justify-content-start " style={{ height: "120px" }}>
                 <img
                   src="https://tequre.com/wp-content/uploads/2020/05/CastleBridge.jpg"
                   className="img-fluid m-2 shadow rounded"
                 />
               </div>
-              <div className="col-6  p-0 d-flex justify-content-end " style={{ height: "140px" }}>
+              <div className="col-6  p-0 d-flex justify-content-end " style={{ height: "120px" }}>
                 <img
                   src="https://tequre.com/wp-content/uploads/2020/05/shahi.jpg"
                   className="img-fluid m-2 shadow rounded"
                 />
               </div>
-              <div className="col-6 p-0 d-flex justify-content-start " style={{ height: "140px" }}>
+              <div className="col-6 p-0 d-flex justify-content-start " style={{ height: "120px" }}>
                 <img
                   src="https://tequre.com/wp-content/uploads/2020/05/azur3media.jpg"
                   className="img-fluid m-2 shadow rounded"

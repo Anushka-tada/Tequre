@@ -770,19 +770,34 @@ z-index: 1;
 /* hero section css  */
 
 .outer-div{
-  height: 100vh;
+  height: 820px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("/assets/backround.jpg");
+  background-image: url("/assets/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center; 
+ 
+  width: 100%;
+}
+@media(max-width:626px){
+ .outer-div{
+  background-image: url("/assets/back2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center; 
+
+ }
 }
 
 /* .links ul li {
   text-transform: uppercase;
 } */
-body{
-  
+body , html{
+  overflow-x: hidden; 
 }
+
  .contact-btn{
   background-color: rgb(250 , 191 , 15);
   width: 150px;
@@ -794,7 +809,7 @@ body{
 
 .navbar{
     padding: 0 !important;
-    background-image: url("/assets/backround.jpg");
+    /* background-image: url("/assets/backround.jpg"); */
 }
 
 .logo{
@@ -803,6 +818,10 @@ body{
 @media(max-width:768px){
   .logo{
       width: 130px !important;
+  }
+  .circle-container{
+    width: 30% !important;
+    height: 20% !important;
   }
 }
 
@@ -827,23 +846,47 @@ body{
 }
 @media (max-width:930px){
   .heading{
-   font-size: 6vw;
-   
+   font-size: 7vw;
+    line-height: 50px;
   }
   .head2{
-   font-size:4vw;  
+   font-size:5vw;  
 } 
 }
 
-@media (max-width:426px){
+@media   (max-width:426px){
+  .para{
+      font-size: 14px;
+  }
+.circle-container{
+  width: 140px !important;
+  height: 100px !important;
+}
+.heading{
+  font-size: 9vw;
+  line-height: 35px;
+ }
+ .head2{
+  font-size:7vw;  
+} 
+.img{
+  margin-bottom: 80px !important;
+}
+}
+
+
+@media (max-width:350px){
   .para{
       font-size: 15px;
   }
 .circle-container{
-  width: 250px !important;
-  height: 130px !important;
+  width: 140px !important;
+  height: 80px !important;
 }
-
+.img{
+  
+  margin-bottom: 75px !important;
+}
 }
 
 .circle-container {
@@ -881,7 +924,7 @@ overflow: hidden;
     
 }
 
-@media (max-width:630px){
+@media  (max-width:630px){
   .img{
       width: 300px !important;
       margin-bottom: 180px;
@@ -889,8 +932,21 @@ overflow: hidden;
   .container{
     padding: 0 !important;
   }
- .navbar-toggler{
-    padding: 0 !important;
-    font-size: 16px;
- }
+
+}
+.terms{
+  padding: 0 !important;
+}
+.footer-row{
+  margin: 0 !important;
+}
+.footer-col{
+  padding: 0 !important;
+}
+
+.navbar-toggler{
+  padding: 0 !important;
+  font-size: 24px !important;
+  color: white;
+  width: 40px !important;
 }

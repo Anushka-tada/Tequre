@@ -6,9 +6,9 @@ function Footer() {
       <div className="container ">
         {/* Row 1 */}
         <div className="row mb-3 ">
-          <div className="col text-center">
+          <div className="col text-center footer-col">
             {/* Row with 2 Columns */}
-            <div className="row">
+            <div className="row footer-row gx-0">
               {/* Column 1 */}
               
 
@@ -67,7 +67,7 @@ function Footer() {
                   </div>
                 </div>
               </div> */}
-              <div className="row p-2">
+              <div className="row py-2">
                 <div className="col-lg-3 col-md-6 col-12">
                <div className="d-flex">
                <img
@@ -400,7 +400,7 @@ function Footer() {
                 </div>
               </div>
 
-              <div className="d-md-flex d-block justify-content-center">
+              <div className="d-md-flex d-block justify-content-center terms">
                 <p className="mx-2 text-light">© 2024 Tequre - Unleash Growth!</p>
                 <p className="mx-2 text-light">Terms</p>
                 <p className="mx-2 text-light">Privacy</p>
