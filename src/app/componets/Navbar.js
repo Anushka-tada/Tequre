@@ -194,14 +194,10 @@ function Navbar({selectedItem}) {
   // const router = useRouter();
   return (
     <>
-      <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-white py-3 ">
+      <nav className="navbar navbar-expand-lg fixed-top ">
         <div className="container">
           <Link className=" brandLogo" href="/">
-            <img
-              style={{ height: "40px" }}
-              src="https://tequre.com/wp-content/uploads/2020/04/t-web-logo.png"
-              className="img-fluid"
-            />
+          <img src="/assets/logo.png" alt="Logo" className='logo' />
           </Link>
           <button
             className="navbar-toggler"
@@ -212,7 +208,7 @@ function Navbar({selectedItem}) {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon" />
+            ☰
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -221,7 +217,7 @@ function Navbar({selectedItem}) {
                   <li className="nav-item">
                     <Link 
                     href={v?.title=="AI Cloud" ? "/ai-cloud" : "#"}
-                      className={"nav-link fontSize18 mx-3 fontBold  " + isNavActive(v?.title) + (selectedItem==v?.title && " navActive")}
+                      className={"nav-link fontSize18 mx-3 fontBold " + isNavActive(v?.title) + (selectedItem==v?.title && " navActive")}
                       onMouseEnter={() => handleNavClick(v?.title)}
                       onMouseLeave={() => handleNavClick(v?.title)}
                       style={{ cursor: "pointer" }}
@@ -233,13 +229,9 @@ function Navbar({selectedItem}) {
                 );
               })}
             </ul>
-            <button
-              className="btn btn-success shadow my-auto "
-              style={{ background: "#C0202E", borderRadius: "20px", border: "none" }}
-            >
-              
-              <Link href="/contactus" style={{textDecoration:"none", color:"white"}}>Contact Us</Link>
-            </button>
+            <div className="contact-btn d-flex justify-content-center  align-middle">
+                                <p className=' fw-bold '>CONTACT US</p>
+                            </div>
           </div>
         </div>
       </nav>

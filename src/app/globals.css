@@ -16,6 +16,9 @@
 .fontSize18 {
   font-size: 18px;
 }
+.nav-link{
+  color: white !important;
+}
 .navActive {
   border-bottom: 2px solid black;
   color: black !important;
@@ -466,10 +469,10 @@
   background: rgb(255,255,255);
 background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,250,250,1) 20%, rgba(255,247,247,1) 49%, rgba(255,245,245,1) 75%);
 }
-.contact-btn{
+/* .contact-btn{
   padding: 6px 42px;
   border: 18px;
-}
+} */
 
 
 .container {
@@ -762,3 +765,131 @@ z-index: 1;
 }
 
 
+
+
+/* hero section css  */
+
+.outer-div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("/assets/backround.jpg");
+}
+
+/* .links ul li {
+  text-transform: uppercase;
+} */
+body{
+  
+}
+ .contact-btn{
+  background-color: rgb(250 , 191 , 15);
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+
+  padding: 0 !important;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+.logo{
+  width: 220px;
+} 
+@media(max-width:768px){
+  .logo{
+      width: 130px !important;
+  }
+}
+
+
+.heading{
+  color: rgb(250, 191, 15);
+  /* font-size:60px; */
+  font-size: 4vw;
+  font-weight:800;
+  line-height: 50px;
+}
+.head2{
+  color: rgb(255, 255, 255);
+  /* font-size:44px; */
+  font-size: 2.6vw;
+  font-weight:800;  
+}
+.para{
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+@media (max-width:930px){
+  .heading{
+   font-size: 6vw;
+   
+  }
+  .head2{
+   font-size:4vw;  
+} 
+}
+
+@media (max-width:426px){
+  .para{
+      font-size: 15px;
+  }
+.circle-container{
+  width: 250px !important;
+  height: 130px !important;
+}
+
+}
+
+.circle-container {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 380px;
+height: 210px;
+background-color: rgb(255, 255, 255); 
+border-radius: 0 96% 0 0;
+overflow: hidden; 
+}
+
+
+.img{
+  width: 550px !important;
+}
+
+@media (max-width:1024px){
+  .img{
+      width: 500px !important;
+      margin-bottom: 180px;
+  }
+  .outer-div{
+      height: 100%;
+    
+  }
+  .home-text{
+    margin-top: 30px;
+  }
+  .homepage{
+    flex-wrap: wrap;
+  }
+
+    
+}
+
+@media (max-width:630px){
+  .img{
+      width: 300px !important;
+      margin-bottom: 180px;
+  }
+  .container{
+    padding: 0 !important;
+  }
+ .navbar-toggler{
+    padding: 0 !important;
+    font-size: 16px;
+ }
+}
