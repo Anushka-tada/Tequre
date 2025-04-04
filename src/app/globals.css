@@ -77,15 +77,16 @@
 
 .pageHeading h2 {
   font-size: 35px;
-  color: #5f687b;
-  font-weight: 500;
+  color:#1b3567;
+  text-transform: uppercase;
+  font-weight: 600;
   font-family: monospace;
   text-shadow: 1px 1px 2px black;
   text-align: center;
 }
 .pageHeading p {
-  font-size: 20px;
-  color: gray;
+  font-size: 30px;
+  color:#1b3567;
   text-align: center;
 }
 .aboutContent h2 {
@@ -223,27 +224,13 @@ background-color: #fdc11f;
 
 }
 
-.companyStripSection h3 {
-   
-  font-size: 30px;
-  text-transform: uppercase;
-  color: #1c3668;
-  font-weight: 900;
-}
-.companyStripSection p {
-  /* font-family: "Poppins", sans-serif; */
-  margin-bottom: 4px;
-  font-size: 17px;
-  
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #000;
-}
+
+
 .companyStripSection {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: whitesmoke;
+background-color: #f3f8fd;
 }
 
 .modal-backdrop {
@@ -498,7 +485,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,250,250,1) 20
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 0;
   z-index: 1;
 }
 
@@ -817,6 +804,7 @@ z-index: 1;
 
 
 
+
 /* hero section css  */
 
 .outer-div{
@@ -845,7 +833,7 @@ z-index: 1;
   text-transform: uppercase;
 } */
 body , html{
-  overflow-x: hidden; 
+  overflow-x: hidden !important; 
 }
 
  .contact-btn{
@@ -868,6 +856,7 @@ body , html{
     display: flex;
     flex-direction: column;
     align-items: end !important;
+  
 
   }
 
@@ -878,6 +867,9 @@ body , html{
     padding: 0 !important;
     background-image: url("/assets/backround.jpg");
 
+}
+.collapse{
+  justify-content: end !important;
 }
 
 .logo{
@@ -1019,3 +1011,117 @@ overflow: hidden;
   width: 40px !important;
 }
 
+
+/* brand section css */
+.brand-trust-us{
+  background-color: #f3f8fd;
+}
+.brand-h{
+  font-size: 37px;
+text-transform: uppercase;
+color: #1b3667;
+font-weight: 900;
+
+}
+.brand-p{
+     font-size: 19px;
+     letter-spacing: 1px;
+}
+@media  (max-width:455px){
+    .brand-h{
+      font-size: 30px;
+    }
+    .brand-p{
+      font-size: 13px;
+      padding: 0px 8px;
+    }
+    .brand-images{
+      gap: 0px !important;
+    }
+    .brand-img img{
+      width: 142px;
+    }
+}
+
+/* Nitty Gritty Section Style */
+
+.nity-grity-h{
+  color: #1b3667;
+   font-size: 34px;
+   font-weight: 900;
+   transform: scaleY(1.3);
+}
+
+.nity-grity-p{
+  color: #1b3667;
+font-weight: 300;
+font-family: "Copperplate Gothic";
+font-size: 17px;
+}
+
+@media  (max-width:580px){
+  .nity-grity-h{
+   
+     font-size: 25px;
+     font-weight: 700;
+     
+  }
+  
+  .nity-grity-p{
+
+  font-size: 14px;
+  }
+  .nitty-row1{
+    padding: 0 11px;
+    text-align: center;
+  }
+}
+.nitty-row1 {
+  margin-bottom: 50px;
+}
+
+.bank-finance{
+  color: #ffffff;
+font-weight: bold;
+transform: scaleY(1.3);
+font-size: 25px;
+padding: 8px 0px;
+}
+.bank-bg{
+  background-color: #1b3567;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.bank-box{
+   border-radius: 18px;
+   margin: 15px 70px !important;
+}
+.bank-p{
+  color: #1b3667;
+font-weight: 300;
+font-family: "Copperplate Gothic";
+text-align: center;
+font-size: 17px;
+}
+
+@media  (max-width:580px){
+  .bank-box{
+    
+    margin: 15px 20px !important;
+ }
+ .bank-p{
+  font-size: 14px;
+}
+}
+
+
+
+.contactLeftDiv1{
+  background-color: #1b3667;
+}
+
+
+.contact-img{
+  height: 90%;
+  width: 80%;
+}

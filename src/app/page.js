@@ -63,13 +63,13 @@ export default function Home() {
       img: "/assets/native02.png",
       heading: "CI, CD, GitOps & Progressive Delivery",
       para: "Delivering applications to the end user with right quality and fast is key. From microservice to ML models being deployed to Kubernetes or an edge location. We understand the goals and build the right CI/CD architecture with practices such as GitOps & progressive delivery.",
-      link: "\ci-cd-consulting",
+      link: "ci-cd-consulting",
     },
     {
       img: "/assets/native03.png",
       heading: "Platform Engineering & IaC",
       para: "Trusted by CNCF as ‘Kubernetes Certified Service Provider’ (KCSP), we help in designing and building a solid platform for your teams. Our professional Kubernetes consulting services include cloud-native architecture consulting, design, and managed services.",
-      link: "\low-code-platform",
+      link: "low-code-platform",
     },
     {
       img: "/assets/native04.png",
@@ -94,7 +94,7 @@ export default function Home() {
       img: "/assets/native07.png",
       heading: "Kubernetes Consulting",
       para: "Based on our deep expertise we offer Kubernetes Consulting and implementation services. We achieve this with our OSS tools, Managed Services, technologies from the partner ecosystem, and unparalleled understanding of the enterprise value stream.",
-      link: "\kubernetes-monitoring-tool",
+      link: "kubernetes-monitoring-tool",
     },
   ];
   const cloudConsultingData = [
@@ -150,19 +150,25 @@ export default function Home() {
       <HeroSection />
       {/* We are a company which enables start-up and enterprise section start */}
       <div className="my-5 py-5 companyStripSection p-2">
-       <div className="companyStripSection-heading px-4">
-       <h3 className="text-center mb-4 company-heading">
-          We are a company which enables start-up and enterprise section
-        </h3>
-       </div>
-        <p className="text-lg-center mx-lg-5 p-2" style={{textAlign:"justify"}}>
-          A team of young technology enthusiasts focused to carve out the path for delivering high quality software
-          products to solve the complex business problems using next generation technologies. Tequre emphases on easing
-          out the adoption of next generation technologies like blockchain, big data, artificial intelligence and cloud
-          computing. Our prime target is to build and offer SaaS services that are modular, service-oriented with micro
-          service architecture and provide sophisticated solution to the business problems for customers. At Tequre, we
-          aim to deliver seamless customer experience, business efficiency and actionable insights in booming
-          technology.
+        <div className="companyStripSection-heading px-4">
+          <h3 className="text-center mb-4 company-heading">
+            We are a company which enables start-up and enterprise section
+          </h3>
+        </div>
+        <p
+          className="text-lg-center mx-lg-5 p-2"
+          style={{ textAlign: "justify" }}
+        >
+          A team of young technology enthusiasts focused to carve out the path
+          for delivering high quality software products to solve the complex
+          business problems using next generation technologies. Tequre emphases
+          on easing out the adoption of next generation technologies like
+          blockchain, big data, artificial intelligence and cloud computing. Our
+          prime target is to build and offer SaaS services that are modular,
+          service-oriented with micro service architecture and provide
+          sophisticated solution to the business problems for customers. At
+          Tequre, we aim to deliver seamless customer experience, business
+          efficiency and actionable insights in booming technology.
         </p>
       </div>
       {/* We are a company which enables start-up and enterprise section end */}
@@ -173,7 +179,10 @@ export default function Home() {
               setSliderData(cloudData);
               setSelectedTab("Cloud");
             }}
-            className={"navTab p-2 px-3  " + (selectedTab == "Cloud" && " shadow opacity1 selcted-navTabMain")}
+            className={
+              "navTab p-2 px-3  " +
+              (selectedTab == "Cloud" && " shadow opacity1 selcted-navTabMain")
+            }
           >
             Cloud
           </div>
@@ -182,7 +191,11 @@ export default function Home() {
               setSliderData(cloudNativeApsData);
               setSelectedTab("Cloud Native Aps");
             }}
-            className={"navTab p-2 px-3  " + (selectedTab == "Cloud Native Aps" && " shadow opacity1 selcted-navTabMain")}
+            className={
+              "navTab p-2 px-3  " +
+              (selectedTab == "Cloud Native Aps" &&
+                " shadow opacity1 selcted-navTabMain")
+            }
           >
             Cloud Native Aps
           </div>
@@ -191,139 +204,112 @@ export default function Home() {
               setSliderData(cloudConsultingData);
               setSelectedTab("Cloud Consulting");
             }}
-            className={"navTab p-2 px-3  " + (selectedTab == "Cloud Consulting" && " shadow opacity1 selcted-navTabMain")}
+            className={
+              "navTab p-2 px-3  " +
+              (selectedTab == "Cloud Consulting" &&
+                " shadow opacity1 selcted-navTabMain")
+            }
           >
             Cloud Consulting
           </div>
         </div>
       </div>
 
-     
       <ZigzagSection data={sliderData} />
-     <div className="road-end">
-     <img src="https://cdn-icons-png.flaticon.com/512/2536/2536650.png" alt="" height={50} width={50} />
-     </div>
+      <div className="road-end">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2536/2536650.png"
+          alt=""
+          height={50}
+          width={50}
+        />
+      </div>
       {/* We are a company which enables start-up and enterprise section start */}
-      <div className="my-5 py-5 companyStripSection" style={{ background: "#fff" }}>
-        <div className="row m-0 p-0">
-          <div className="col-md-6 col-12 my-auto">
-            <h3 className="text-center mb-4 ">
-              Brands That <span style={{ color: "#C0202E" }}>Trust Us</span>
-            </h3>
-            <p className="text-center mx-lg-5">
-              We are a trusted development partner for Many more companies and established brands.
-            </p>
+
+      <div className="brand-trust-us my-5 py-5  ">
+        <h3 className="text-center mb-3 brand-h"> Brands That Trust Us</h3>
+        <p className="text-center mx-lg-5 mb-4 text-uppercase brand-p">
+          We are a trusted development partner for Many more companies and
+          established brands.
+        </p>
+        <div className="brand-images d-flex flex-wrap justify-content-center gap-5">
+          <div className="brand-img">
+            <img
+              src="https://tequre.com/wp-content/uploads/2020/05/genx.jpg"
+              className="img-fluid m-2 shadow rounded"
+            />
           </div>
-          <div className="col-md-6 col-12">
-            <div className="row">
-              <div className="col-6  p-2  d-flex justify-content-end " style={{ height: "120px" }}>
-                <img
-                  src="https://tequre.com/wp-content/uploads/2020/05/genx.jpg"
-                  className="img-fluid m-2 shadow rounded"
-                />
-              </div>
-              <div className="col-6 p-0 d-flex  justify-content-start " style={{ height: "120px" }}>
-                <img
-                  src="https://tequre.com/wp-content/uploads/2020/05/CastleBridge.jpg"
-                  className="img-fluid m-2 shadow rounded"
-                />
-              </div>
-              <div className="col-6  p-0 d-flex justify-content-end " style={{ height: "120px" }}>
-                <img
-                  src="https://tequre.com/wp-content/uploads/2020/05/shahi.jpg"
-                  className="img-fluid m-2 shadow rounded"
-                />
-              </div>
-              <div className="col-6 p-0 d-flex justify-content-start " style={{ height: "120px" }}>
-                <img
-                  src="https://tequre.com/wp-content/uploads/2020/05/azur3media.jpg"
-                  className="img-fluid m-2 shadow rounded"
-                />
-              </div>
-            </div>
+
+          <div className="brand-img">
+            <img
+              src="https://tequre.com/wp-content/uploads/2020/05/CastleBridge.jpg"
+              className="img-fluid m-2 shadow rounded"
+            />
+          </div>
+
+          <div className="brand-img">
+            <img
+              src="https://tequre.com/wp-content/uploads/2020/05/shahi.jpg"
+              className="img-fluid m-2 shadow rounded"
+            />
+          </div>
+
+          <div className="brand-img">
+            <img
+              src="https://tequre.com/wp-content/uploads/2020/05/azur3media.jpg"
+              className="img-fluid m-2 shadow rounded"
+            />
           </div>
         </div>
       </div>
-      {/* We are a company which enables start-up and enterprise section end */}
-      {/* testimonial start */}
-      {/* <div className="my-5 py-5 companyStripSection">
-        <h3 className="text-center mb-4">
-          <span style={{ color: "#C0202E" }}>What do our Customers Say about us</span>
-        </h3>
-        <div className="row m-0 p-0 ">
-          {[1, 2, 3]?.map((v, i) => {
-            return (
-              <div className="col-lg-4 col-12">
-                <div className="bg-light p-3 m-2 shadow rounded">
-                  <div className="d-flex justify-content-center mb-3">
-                    <div className="d-flex align-items-center" style={{ opacity: "0.8" }}>
-                      <h1 className="mb-0 me-3">
-                        <i className="fa fa-user" style={{ position: "relative", top: "-5px" }}></i>
-                      </h1>
-                      <div>
-                        <h6 className="mb-0">KT Verma</h6>
-                        <p className="mb-0">Co-founder, USA</p>
-                      </div>
-                    </div>
-                  </div>
-                  <p className="" style={{ textAlign: "justify" }}>
-                    “InfraCloud was quickly able to set up a small team and realize our elasticity vision. Their
-                    expertise in working with early-stage features of Kubernetes was second only to their flexibility in
-                    quickly adjusting course as we discovered simpler/better tech options along the way. ”
-                  </p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div> */}
-      {/* testimonial end */}
-      {/* testimonial start */}
-      <div className=" py-5 companyStripSection navPopBg" style={{ marginTop: "-50px" }}>
+
+      <div
+        className=" py-5 companyStripSection navPopBg"
+        style={{ marginTop: "-50px" }}
+      >
         <div className="container">
-          <div className="row m-0 p-0">
-            <div className="col-lg-5 col-12">
-              <img
-                className="img-fluid my-3"
-                src="https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-observability-feedback-loops.svg"
-              />
-              <h3 className=" mb-3">
-                <span style={{ color: "#C0202E" }}>We Understand the Nitty-Gritty!</span>
+          <div className="row gx-5 d-flex justify-content-around nitty-row1">
+            <div className="col-lg-5 col-12 ">
+              <img className="img-fluid my-3" src="/assets/niitty-gitty.png" />
+            </div>
+            <div className="col-lg-6 col-12 d-flex flex-column justify-content-center ">
+              <h3 className=" mb-3 nity-grity-h">
+                We Understand the Nitty-Gritty!
               </h3>
-              <p>
-                Gain leverage with our proven artificial intelligence expertise & industry exposure. Working with 100+
-                clients, we know the criticalities, compliances & the importance of getting things right in the first
-                go.
+              <p className="nity-grity-p">
+                Gain leverage with our proven artificial intelligence expertise
+                & industry exposure. Working with 100+ clients, we know the
+                criticalities, compliances & the importance of getting things
+                right in the first go.
               </p>
-              <p className="mb-5 mb-lg-0">
-                Be it an enterprise with datacenters across the world or a rapidly scaling startup, we got it covered!
+              <p className="mb-5 mb-lg-0 nity-grity-p">
+                Be it an enterprise with datacenters across the world or a
+                rapidly scaling startup, we got it covered!
               </p>
             </div>
-            <div className="row col-lg-7 col-12 m-0 p-0 ">
+          </div>
+          <div className="row m-0 p-0">
+            <div className="row  col-12 m-0 p-0 ">
               {[1, 2, 3, 4]?.map((v, i) => {
                 return (
-                  <div className={"col-lg-6 col-12 m-0 p-0  "}>
-                    <div className={"  p-3 shadow-sm bg-light mx-2 mb-3"}>
-                      <div className="d-flex justify-content-center mb-3">
-                        <div className="d-flex align-items-center ">
-                          <div className="p-1 px-2 rounded shadow-sm bg-light me-3">
-                            {" "}
-                            <img
-                              src="https://cdn-icons-png.flaticon.com/128/2175/2175515.png"
-                              style={{ height: "30px", width: "30px" }}
-                            />
-                          </div>
-
+                  <div className={"col-lg-6 col-12 m-0 p-0"}>
+                    <div className={"  shadow-sm bg-light  mb-3  bank-box "}>
+                      <div className="d-flex justify-content-center mb-3 bank-bg ">
+                        
                           <div style={{ opacity: "0.8" }}>
-                            <h4 className="mb-0">Banking & Finance</h4>
+                            <h4 className="mb-0 bank-finance">
+                              Banking & Finance
+                            </h4>
                           </div>
-                        </div>
+                        
                       </div>
-                      <p className="" style={{ textAlign: "justify" }}>
-                        “InfraCloud was quickly able to set up a small team and realize our elasticity vision. Their
-                        expertise in working with early-stage features of Kubernetes was second only to their
-                        flexibility in quickly adjusting course as we discovered simpler/better tech options along the
-                        way. ”
+                      <p className=" p-3 bank-p" style={{ textAlign: "justify" }}>
+                        “InfraCloud was quickly able to set up a small team and
+                        realize our elasticity vision. Their expertise in
+                        working with early-stage features of Kubernetes was
+                        second only to their flexibility in quickly adjusting
+                        course as we discovered simpler/better tech options
+                        along the way. ”
                       </p>
                     </div>
                   </div>
