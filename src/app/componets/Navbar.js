@@ -211,7 +211,7 @@ function Navbar({selectedItem}) {
             ☰
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav  mb-2 mb-lg-0">
               {navItem?.map((v, i) => {
                 return (
                   <li className="nav-item">

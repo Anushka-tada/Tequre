@@ -605,15 +605,13 @@ z-index: 1;
    top: -20%;
  z-index: 3;
  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s;
 }
 
 .location-box{
- 
   width: 35px;
   height: 30px;
-  
- ;
-  transition: transform 0.3s ease, box-shadow 0.3s
+ 
 }
 .location-box:hover {
   transform: scale(2);
@@ -670,11 +668,13 @@ z-index: 1;
 
   .location-box{
    
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 25px;
+  }
+  .outer-location-box{
     left: 116%;
-     top: -7%;
-
+    top: -7%;
+  
   }
   .road-end{
    
@@ -704,13 +704,14 @@ z-index: 1;
 @media (max-width:1000px){
   .location-box{
    
-    width: 45px;
-    height: 45px;
-    left: 132%;
-     top: -17%;
-
+    width: 25px;
+    height: 20px;
   }
- 
+   .outer-location-box{
+    left: 132%;
+    top: -17%;
+
+   }
 
 }
 
@@ -852,9 +853,25 @@ body , html{
   width: 150px;
   height: 30px;
   border-radius: 3px;
-
   padding: 0 !important;
 }
+@media(max-width:991px){
+  .contact-btn{
+   margin-bottom: 20px;
+  }
+  .navbar-nav{
+    display: flex;
+    align-items: end;
+ 
+  }
+  .navbar-collapse{
+    display: flex;
+    flex-direction: column;
+    align-items: end !important;
+
+  }
+
+ }
 
 .navbar{
   

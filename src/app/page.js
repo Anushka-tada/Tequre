@@ -54,44 +54,44 @@ export default function Home() {
   ];
   const cloudNativeApsData = [
     {
-      img: "https://www.infracloud.io/assets/img/home/containerization-img.svg",
+      img: "/assets/native01.png",
       heading: "Containerization & Microservices",
       para: "Helping you start your cloud-native journey by adopting containers and if needed moving from monolithic architecture to microservices architecture. We understand the needs of your business and introduce the right architecture, maximizing the returns of effort and minimizing the TCO (Total Cost of Ownership).",
       link: "Learn More ->",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ci-cd-img.svg",
+      img: "/assets/native02.png",
       heading: "CI, CD, GitOps & Progressive Delivery",
       para: "Delivering applications to the end user with right quality and fast is key. From microservice to ML models being deployed to Kubernetes or an edge location. We understand the goals and build the right CI/CD architecture with practices such as GitOps & progressive delivery.",
       link: "\ci-cd-consulting",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/platform-engineering-&-iac.svg",
+      img: "/assets/native03.png",
       heading: "Platform Engineering & IaC",
       para: "Trusted by CNCF as ‘Kubernetes Certified Service Provider’ (KCSP), we help in designing and building a solid platform for your teams. Our professional Kubernetes consulting services include cloud-native architecture consulting, design, and managed services.",
       link: "\low-code-platform",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/observability-img.svg",
+      img: "/assets/native04.png",
       heading: "Observability & Security Platform",
       para: "A platform scales as good as a system that can observe it. We help build an observability system based on needs of the application along the axis of logs, metrics & traces with right dashboards and alerting system. This layer also allows building solid security on top of observed data.",
       link: "Learn More ->",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/service-proxy-img.svg",
+      img: "/assets/native05.png",
       heading: "Networking - Service Mesh, API Gateway",
       para: "Modern applications require a well-designed layer of secure networking that spans within and across clusters of compute. We have implemented Consul, LinkerD, Istio, and commercial distributions of these technologies for customers to build and scale the networking layer.",
       link: "Learn More ->",
     },
 
     {
-      img: "https://www.infracloud.io/assets/img/home/devsecops-compliance.svg",
+      img: "/assets/native06.png",
       heading: "DevSecOps & Compliance",
       para: "Startups, as well as enterprises, consider us trusted service providers for DevSecOps services and policy enforcement. With deep expertise in projects like Calico, OPA, Falco, etc., we help you with end-to-end cloud-native security services.",
       link: "Learn More ->",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/cloud-native-networking.svg",
+      img: "/assets/native07.png",
       heading: "Kubernetes Consulting",
       para: "Based on our deep expertise we offer Kubernetes Consulting and implementation services. We achieve this with our OSS tools, Managed Services, technologies from the partner ecosystem, and unparalleled understanding of the enterprise value stream.",
       link: "\kubernetes-monitoring-tool",
