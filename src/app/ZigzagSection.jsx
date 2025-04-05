@@ -122,12 +122,12 @@ function ZigzagSection({ data }) {
   }, []);
 
   return (
-    <div className="container zig-zag-container">
+    <div className="container zig-zag-container ">
       <div className="road-wrapper">
         {/* <img src="path_to_image" alt="Road" className="road-image" /> */}
       </div>
       {data?.map((v, i) => (
-        <div key={i} className={`zigzag-item ${i % 2 === 0 ? "left" : "right"} my-5 d-flex align-items-center justify-content-md-center justify-content-sm-center`}>
+        <div key={i} className={`zigzag-item ${i % 2 === 0 ? "left" : "right"} my-5 px-3 d-flex align-items-center justify-content-md-center justify-content-sm-center`}>
           {i % 2 === 0 ? (
             <>
               <img src="https://media-hosting.imagekit.io//682b7fbff44c40ed/empty-winding-asphalt-road-fragment-with-marking-horizontal-aerial-view-seamless-highway-template-part-city-street-roadway-isolated-white-background_254622-1339-removebg-preview.png?Expires=1835781925&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JScZ7AEJZBlMrtebVgXLDUPYa9jnni0lkH8ZYh2clfYUaLJLER8foiVDDlJ9gla5Z4bo5HbEbavOScCFNtluTAzalDQhzYpKFgmu08HQALfob-7nh3khz1qTZr4rj4sY3xxlzG-CgU9jjPf2x~MIRkjvdmJAEexaiz-CWpWs-WNNk4Ukg-3cE-i5LBnA8jA~YZMDT0hex4-j0PfUAgd3iK5GOwA13rpJfQiqxxBBWo3ITmSQlGL8kGXDG3nzWWgWkj9cI60yz9UbATB9ayooOEjHMMYh5XaLjPw5YvQHIfru-38h7mh2gb43TJzDJfXr7LqXqMrJTrj~KrKAgbcg2g__" alt="Road" className="road-image" />
