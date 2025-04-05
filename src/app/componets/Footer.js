@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className=" py-4 footer-color">
-      <div className="container ">
+      <div className="container d-flex justify-content-center ">
         {/* Row 1 */}
         <div className="row mb-3 ">
           <div className="col text-center footer-col">

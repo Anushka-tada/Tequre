@@ -99,44 +99,44 @@ export default function Home() {
   ];
   const cloudConsultingData = [
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-training-infrastructure.svg",
+      img: "/assets/01.png",
       heading: "Build GPU Cloud",
       para: "Build an AI Cloud with GPUs or other processing units & open source technologies. Our expertise in bare metal provisioning with Tinkerbell, private cloud with OpenStack and cloud native technologies such as Kubernetes, Prometheus, and Kubeflow have enabled organizations to build private/public GPU cloud.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/source-code-repo-ci-cd.svg",
+      img: "/assets/02.png",
       heading: "CI/CD for Code, Data & Models",
       para: "Setting up the right source code practices & a way to continuously integrate and deliver code along with data & models is crucial for the success of an AI platform. We have coached on practices that work & built pipelines for organizations to deliver business goals to production seamlessly.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/data-prep-workflow-orchestration.svg",
+      img: "/assets/03.png",
       heading: "Workflow Orchestration",
       para: "Orchestrating the workflows of data pipelines and executing them at scale is crucial to an AI platform. We build, deploy, and scale workflow orchestration systems on scalable infrastructure to execute them at the speed of business needs.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-registry-metadata-stores.svg",
+      img: "/assets/04.png",
       heading: "Model Registry & Metadata Stores",
       para: "A distributed & stable model registry needed to serve the right model when an application is needed is crucial for an AI platform that is global in nature. It is also crucial to capture the right metadata of models in a registry or separate database, depending on business needs.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/feature-stores.svg",
+      img: "/assets/05.png",
       heading: "Feature Stores",
       para: "A feature store that can serve the needs of model training as well as in the prediction request path is needed for the AI platform to deliver value to both sets of customers successfully. We build & deploy these on right infrastructure based on the needs of the business.",
       link: "/ai-cloud",
     },
 
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-serving.svg",
+      img: "/assets/06.png",
       heading: "Model Serving",
       para: "Serving models to end users in request path, with accuracy & low latency not only improves user experience but also business value. We deploy and configure the serving components to deliver to users.",
       link: "/ai-cloud",
     },
     {
-      img: "https://www.infracloud.io/assets/img/home/ai-cloud-trail-map/model-observability-feedback-loops.svg",
+      img: "/assets/07.png",
       heading: "Model Observability & Feedback Loops",
       para: "Redirecting requests to the right model and observing the accuracy of results & model performance is crucial to ensuring the intended & actual business outcomes are aligned. We use a combination of infra and model observability technologies to achieve this.",
       link: "/ai-cloud",
@@ -232,7 +232,7 @@ export default function Home() {
           We are a trusted development partner for Many more companies and
           established brands.
         </p>
-        <div className="brand-images d-flex flex-wrap justify-content-center gap-5">
+        <div className="brand-images d-flex flex-wrap justify-content-center gap-sm-5 gap-0">
           <div className="brand-img">
             <img
               src="https://tequre.com/wp-content/uploads/2020/05/genx.jpg"

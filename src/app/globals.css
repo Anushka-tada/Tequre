@@ -137,9 +137,24 @@
   width: 30px;
 }
 .contactLeftDiv h5 {
-  color: #5f687b;
+  color: #1b3667;
+  font-size: 33px;
+}
+@media  (max-width:576px){
+  .contactLeftDiv h5 {
+   
+    font-size: 23px;
+  }
+  .contact-p{
+   
+    font-size: 14px;
+   }
 }
 
+.contact-p{
+ color: #1b3667;
+ font-size: 18px;
+} 
 
 
 /* navbar start */
@@ -208,10 +223,20 @@
   opacity: 0.7;
   font-size: 14px;
   opacity: 0.8;
+  color: white;
+}
+.subSubMenuDiv:hover p {
+  
+  color: rgb(0, 0, 0);
 }
 .subSubMenuDiv h5 {
   font-size: 16px;
   opacity: 0.8;
+  color: white;
+}
+.subSubMenuDiv:hover h5 {
+  
+  color: rgb(0, 0, 0);
 }
 .gradient-bg {
   background: linear-gradient(180deg, #eef4ff 0%, #fff 300px);
@@ -234,7 +259,7 @@ background-color: #f3f8fd;
 }
 
 .modal-backdrop {
-  top: 150px !important;
+  top: 500px !important;
 }
 /* navbar end */
 
@@ -261,7 +286,7 @@ background-color: #f3f8fd;
 }
 
 .link-hover-orange {
-  color: gray; /* Initial color */
+  color: #cbcbcb; /* Initial color */
   transition: color 0.3s; /* Smooth transition */
 }
 
@@ -299,7 +324,7 @@ background-color: #f3f8fd;
 }
 
 .link-hover-orange {
-  color: gray; /* Initial color */
+  color: #cbcbcb; /* Initial color */
   transition: color 0.3s; /* Smooth transition */
 }
 
@@ -452,9 +477,9 @@ color: #ffffff;
 font-weight: 700;
 }
 .send-message{
-  background-color: #c0202e;
-  color: white;
-  width: 150px;
+  background-color: #fdc11f;
+  color: rgb(0, 0, 0);
+  width: 160px;
   height: 37px;
   padding: 5px;
   border-radius: 17px;
@@ -462,16 +487,22 @@ font-weight: 700;
 }
 
 .footer-color{
-  background-color: #000;
+  background-color: #1b3567;
 }
 
 .footer-logo{
-  background-color: white;
+  background-color: #fdc11f;
   border-radius: 7px;
 }
 .subSubMenuDiv{
-  background-color: white;
+  background-color: #1b3567;
   border: 1px solid rgb(232, 232, 232);
+}
+.subSubMenuDiv:hover{
+  background-color: #fdc11f;
+}
+.subSubMenuDiv:focus {
+  background-color: #fdc11f;
 }
 .bg-dark-grey{
   background: rgb(255,255,255);
@@ -516,6 +547,9 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,250,250,1) 20
   align-items: center;
   margin-top: -24%;
 }
+
+
+
 
 .text-wrapper {
   display: flex;
@@ -602,7 +636,6 @@ z-index: 1;
 }
 .location-box:hover {
   transform: scale(2);
-
 }
 
 /* .zigzag-img1{
@@ -614,6 +647,7 @@ z-index: 1;
 .zigzag-img2{
   
 } */
+ 
 
 
 /* Add this to your CSS file */
@@ -771,7 +805,7 @@ z-index: 1;
 
    border-left: 10px solid transparent; 
   border-right: 10px solid transparent;  
-   border-bottom: 10px solid rgb(131, 131, 131); 
+   border-bottom: 10px solid rgb(255, 255, 255); 
 
   z-index: 1;
 }
@@ -869,7 +903,7 @@ body , html{
 
 }
 .collapse{
-  justify-content: end !important;
+  justify-content: center !important;
 }
 
 .logo{
@@ -1114,14 +1148,34 @@ font-size: 17px;
 }
 }
 
+/* @media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-xl {
+    max-width: 100% !important;
+  }
+} */
+
+
 
 
 .contactLeftDiv1{
   background-color: #1b3667;
 }
-
-
+.get-touch{
+     font-size: 29px;
+     color: #fdc11f;
+}
 .contact-img{
   height: 90%;
   width: 80%;
+}
+.form-label{
+  color: #ffffff;
+}
+@media  (max-width:768px){
+  .contact-img{
+    height: 40%;
+    width: 60%;
+  }
 }
