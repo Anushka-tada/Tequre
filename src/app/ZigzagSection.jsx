@@ -145,7 +145,7 @@ function ZigzagSection({ data }) {
               </div>
               <div className="flex-item empty-side"></div>
              <div className="outer-location-box">
-             <img src="/assets/arrow.png" alt="location-box" className="location-box" />
+             <img src="/assets/left-arrow.png" alt="location-box" className="location-box" />
              </div>
             </>
           ) : (
@@ -166,7 +166,7 @@ function ZigzagSection({ data }) {
                 </div>
               </div>
               <div className="outer-location-box">
-              <img src="/assets/arrow2.png" alt="location-box" className="location-box" />
+              <img src="/assets/right-arrow.png" alt="location-box" className="location-box" />
               </div>
             </>
           )}

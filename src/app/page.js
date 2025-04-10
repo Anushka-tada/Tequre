@@ -156,8 +156,8 @@ export default function Home() {
           </h3>
         </div>
         <p
-          className="text-lg-center mx-lg-5 p-2"
-          style={{ textAlign: "justify" }}
+          className="text-lg-center mx-lg-5  p-2 a-young-team"
+          style={{ textAlign: "justify", color: "#706d6d" }}
         >
           A team of young technology enthusiasts focused to carve out the path
           for delivering high quality software products to solve the complex
