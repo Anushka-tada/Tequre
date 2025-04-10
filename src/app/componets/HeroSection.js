@@ -21,13 +21,13 @@ function HeroSection() {
   ];
   return (
     <div class="position-relative outer-div">
-  <div class="homepage pt-5 d-flex  justify-content-center  gap-0 px-lg-5 px-xl-5 px-md-3 px-2">
+  <div class="homepage  d-flex  justify-content-center  gap-0 px-lg-5 px-xl-5 px-md-3 px-2">
     <div class="home-text ps-xl-4 ps-lg-4 ps-md-4 ps-0">
       <h1 class="heading">BUILD AI CLOUD WITH    <span class="head2">KUBERNETES & OPEN SOURCE</span> </h1>
     
-      <p class="para mt-3  me-xl-5 me-lg-5 me-md-5 me-sm-4 me-0">
-        we help build gpu cloud, modernize applications and infrastructure
-        with our expertise in cloud native technologies
+      <p class="para mt-3  ">
+        We help build GPU cloud, modernize applications and infrastructure
+        with our expertise in cloud native technologies.
       </p>
     </div>
     <div class="hero-image">
@@ -35,9 +35,9 @@ function HeroSection() {
     </div>
   </div>
 
-  <div class="circle-container position-absolute">
-    {/* Content of your website */}
-  </div>
+  {/* <div class="circle-container position-absolute">
+    
+  </div> */}
 </div>
 
   );

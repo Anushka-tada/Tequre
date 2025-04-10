@@ -197,7 +197,7 @@ function Navbar({selectedItem}) {
       <nav className="navbar navbar-expand-lg fixed-top ">
         <div className="container">
           <Link className=" brandLogo" href="/">
-          <img src="/assets/logo.png" alt="Logo" className='logo' />
+          <img src="https://tequre.com/wp-content/uploads/2020/04/t-web-logo.png" alt="Logo" className='logo' />
           </Link>
           <button
             className="navbar-toggler"
@@ -229,8 +229,8 @@ function Navbar({selectedItem}) {
                 );
               })}
             </ul>
-            <div className="contact-btn d-flex justify-content-center  align-middle">
-                                <p className=' fw-bold '>CONTACT US</p>
+            <div className="contact-btn mx-3 ">
+                                <p className=' fw-bold '>Contact us</p>
                             </div>
           </div>
         </div>
