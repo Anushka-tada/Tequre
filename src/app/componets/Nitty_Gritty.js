@@ -15,91 +15,91 @@ function Nitty_Gritty() {
 
 
                 {/* Right Div */}
-                <div className="col-lg-8 col-12  ">
-                    <div className="row g-3">
+                <div className="col-lg-8 col-12 gap-4 ">
+                    <div className="row g-3 gap-4">
                         {/* Row 1 */}
-                        <div className="col-md-6 col-12  p-3 ">
-                            <div className="d-flex ">
+                        <div className="col-md-5 col-12 pb-3 bg-white shadow gx-0 nity-box">
+                            <div className="d-flex nity-box-h justify-content-center align-items-center gap-1">
                             <img
-                                src="https://via.placeholder.com/40"
+                                src="/assets/bank-building.png"
                                 alt="Example"
-                                className="img-fluid mb-3"
+                                className="img-fluid my-2"
                             />
-                            <h5 className="mb-2 p-2 fw-bold">Banking and Finance</h5>
+                            <h5 className="my-2 p-2 fw-bold text-light ">Banking and Finance</h5>
                             </div>
 
-                            <p>Customers demand highly available & compliant systems to efficiently handle transactions & payment requests 24/7. →</p>
+                            <p className='p-3'>Customers demand highly available & compliant systems to efficiently handle transactions & payment requests 24/7. →</p>
                         </div>
 
-                        <div className="col-md-6 col-12  p-3">
-                        <div className="d-flex ">
+                        <div className="col-md-5 col-12 pb-3 bg-white shadow gx-0 nity-box">
+                        <div className="d-flex nity-box-h justify-content-center align-items-center gap-1">
                             <img
-                                src="https://via.placeholder.com/40"
+                                src="/assets/connection.png"
                                 alt="Example"
-                                className="img-fluid mb-3"
+                                className="img-fluid my-2"
                             />
-                            <h5 className="mb-2 p-2 fw-bold">Technology, SaaS & Internet</h5>
+                            <h5 className="my-2 p-2 fw-bold text-light">Technology, SaaS & Internet</h5>
                             </div>
 
-                            <p>Focus on integrating AI within your SaaS on the top of the cloud built for AI while we build & manage your GPU server for performance.</p>
+                            <p className='p-3'>Focus on integrating AI within your SaaS on the top of the cloud built for AI while we build & manage your GPU server for performance.</p>
                         </div>
                     </div>
 
-                    <div className="row g-3 mt-3">
+                    <div className="row g-3 mt-3 gap-4">
                         {/* Row 2 */}
-                        <div className="col-md-6 col-12  p-3">
-                            <div className="d-flex ">
+                        <div className="col-md-5 col-12 pb-3 bg-white shadow gx-0 nity-box">
+                            <div className="d-flex nity-box-h justify-content-center align-items-center gap-1">
                             <img
-                                src="https://via.placeholder.com/40"
+                                src="/assets/automation.png"
                                 alt="Example"
-                                className="img-fluid mb-3"
+                                className="img-fluid my-2"
                             />
-                            <h5 className="mb-2 p-2 fw-bold">Automotive</h5>
+                            <h5 className="my-2 p-2 fw-bold text-light">Automotive</h5>
                             </div>
 
-                            <p>Keep up with the AI & machine learning with the rising customer expectations and integrate more technologies while reaching heights of a safer and sustainable future. →</p>
+                            <p className='p-3' >Keep up with the AI & machine learning with the rising customer expectations and integrate more technologies while reaching heights of a safer and sustainable future. →</p>
                         </div>
 
-                        <div className="col-md-6 col-12 p-3">
-                        <div className="d-flex ">
+                        <div className="col-md-5 col-12 pb-3 bg-white shadow gx-0 nity-box">
+                        <div className="d-flex nity-box-h justify-content-center align-items-center gap-1">
                             <img
-                                src="https://via.placeholder.com/40"
+                                src="/assets/energy.png"
                                 alt="Example"
-                                className="img-fluid mb-3"
+                                className="img-fluid my-2"
                             />
-                            <h5 className="mb-2 p-2 fw-bold">Energy, Oil & Gas</h5>
+                            <h5 className="my-2 p-2 fw-bold text-light">Energy, Oil & Gas</h5>
                             </div>
 
-                            <p>Modernize your system to streamline inspections, better resource monitoring, visualize data, and reduce operational costs.</p>
+                            <p className='p-3' >Modernize your system to streamline inspections, better resource monitoring, visualize data, and reduce operational costs.</p>
                         </div>
                     </div>
 
-                    <div className="row g-3 mt-3">
+                    <div className="row g-3 mt-3 gap-4">
                         {/* Row 3 */}
-                        <div className="col-md-6 col-12 p-3">
-                            <div className="d-flex ">
+                        <div className="col-md-5 col-12 pb-3 bg-white shadow gx-0 nity-box">
+                            <div className="d-flex nity-box-h justify-content-center align-items-center gap-1">
                             <img
-                                src="https://via.placeholder.com/40"
+                                src="/assets/healthcare.png"
                                 alt="Example"
-                                className="img-fluid mb-3"
+                                className="img-fluid my-2"
                             />
-                            <h5 className="mb-2 p-2 fw-bold">Healthcare</h5>
+                            <h5 className="my-2 p-2 fw-bold text-light">Healthcare</h5>
                             </div>
 
-                            <p>Leverage the power of cloud GPU instances to process patient data at speed to adapt to the rapidly evolving healthcare demands.</p>
+                            <p className='p-3'>Leverage the power of cloud GPU instances to process patient data at speed to adapt to the rapidly evolving healthcare demands.</p>
                         </div>
 
-                        <div className="col-md-6 col-12  p-3">
-                        <div className="d-flex ">
+                        <div className="col-md-5 col-12 pb-3 bg-white shadow gx-0 nity-box">
+                        <div className="d-flex nity-box-h justify-content-center align-items-center gap-1">
                             <img
-                                src="https://via.placeholder.com/40"
+                                src="/assets/pin.png"
                                 alt="Example"
-                                className="img-fluid mb-3"
+                                className="img-fluid my-2"
                             />
-                            <h5 className="mb-2 p-2 fw-bold">Travel & Hospitality</h5>
+                            <h5 className="my-2 p-2 fw-bold text-light">Travel & Hospitality</h5>
                             </div>
 
-                            <p>Delight your customers with seamless operation & instant updates using cost-effective, flexible, and scalable system.</p>
+                            <p className='p-3'>Delight your customers with seamless operation & instant updates using cost-effective, flexible, and scalable system.</p>
                         </div>
                     </div>
                 </div>

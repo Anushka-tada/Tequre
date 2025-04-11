@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import Footer from '../componets/Footer'
 import Nitty_Gritty from '../componets/Nitty_Gritty'
@@ -112,7 +114,7 @@ function page() {
                             {/* Left Side */}
                             <div className="col-7 ">
                                 <h4 className="mb-3">MVP Strategy & Platform Roadmap Consulting</h4>
-                                <p className="text-gray">InfraCloud AI BareMetal platform provides GPU instances to consumers with a prebuilt & configured software stack. InfraCloud AI Orchestration platform utilizes the power of containers and Kubernetes to manage AI infrastructure while bin packing for efficiency. Get immediate access to the tools and frameworks you need to share GPU without the setup hassle.</p>
+                                <p className="text-gray">Tequre AI BareMetal platform provides GPU instances to consumers with a prebuilt & configured software stack. Tequre AI Orchestration platform utilizes the power of containers and Kubernetes to manage AI infrastructure while bin packing for efficiency. Get immediate access to the tools and frameworks you need to share GPU without the setup hassle.</p>
 
                                 <div>
                                     <p className="text-gray"><span className="fw-bold fs-3 orange-color">&#8594;</span>Provide platform consumers with on-demand GPUs with per-minute/hour billing, fast booting instances, and powerful storage and networking, with the aim of minimizing downtime.</p>
@@ -135,7 +137,7 @@ function page() {
                             {/* Left Side */}
                             <div className="col-7 ">
                                 <h4 className="mb-3">Platform Design and Development</h4>
-                                <p className="text-gray">With InfraCloud AI MLOps Platform, data scientists and engineers can build, train & deploy models and run AI and MLOps experiments without spending energy and resources managing GPU cloud infrastructure. Manage multiple cloud resources, data sources, server requests, system performance, logs, policies, etc, and administer all the management and business functionality through a single pane of glass with the InfraCloud AI Control plane.</p>
+                                <p className="text-gray">With Tequre AI MLOps Platform, data scientists and engineers can build, train & deploy models and run AI and MLOps experiments without spending energy and resources managing GPU cloud infrastructure. Manage multiple cloud resources, data sources, server requests, system performance, logs, policies, etc, and administer all the management and business functionality through a single pane of glass with the Tequre AI Control plane.</p>
 
                                 <div>
                                     <p className="text-gray"><span className="fw-bold fs-3 orange-color">&#8594;</span>Test various experiments for AI business use cases without worrying about setting up the MLOps pipeline while using the various foundation models from the open source world to author notebooks.</p>
@@ -195,7 +197,7 @@ function page() {
                             {/* Left Side */}
                             <div className="col-7 ">
                                 <h4 className="mb-3">Platform Support & Maintenance</h4>
-                                <p className="text-gray">With InfraCloud AI MLOps Platform, data scientists and engineers can build, train & deploy models and run AI and MLOps experiments without spending energy and resources managing GPU cloud infrastructure. Manage multiple cloud resources, data sources, server requests, system performance, logs, policies, etc, and administer all the management and business functionality through a single pane of glass with the InfraCloud AI Control plane.</p>
+                                <p className="text-gray">With Tequre AI MLOps Platform, data scientists and engineers can build, train & deploy models and run AI and MLOps experiments without spending energy and resources managing GPU cloud infrastructure. Manage multiple cloud resources, data sources, server requests, system performance, logs, policies, etc, and administer all the management and business functionality through a single pane of glass with the Tequre AI Control plane.</p>
 
                                 <div>
                                     <p className="text-gray"><span className="fw-bold fs-3 orange-color">&#8594;</span>Test various experiments for AI business use cases without worrying about setting up the MLOps pipeline while using the various foundation models from the open source world to author notebooks.</p>
@@ -276,7 +278,7 @@ function page() {
                         <div className="row d-flex justify-content-around  div-static-in-small">
 
                             <div className="col-md-5 col-12 bg-white  p-2 border rounded-4">
-                                <p className="text-gray">"Thanks to InfraCloud for your significant contribution to our January release. Your engineers had a significant impact and accelerated our ability to deliver innovation at a fast pace. I know it’s early days in our partnership but I hope this is the meaning of many great things we will do together. Thank you and keep up the great work!"
+                                <p className="text-gray">"Thanks to Tequre for your significant contribution to our January release. Your engineers had a significant impact and accelerated our ability to deliver innovation at a fast pace. I know it’s early days in our partnership but I hope this is the meaning of many great things we will do together. Thank you and keep up the great work!"
                                 </p>
 
                                 <div className="d-flex py-4">
@@ -292,7 +294,7 @@ function page() {
                                 </div>
                             </div>
                             <div className="col-md-5 col-12 bg-white  p-2 border rounded-4">
-                                <p className="text-gray mb-5">"InfraCloud has been of tremendous value to the core development work we have been doing. Their engineers are thorough professional, very knowledgeable, and have adapted to the demands of the work quite well. They are always proactive and helpful to the other team members as well. A great asset for any team!"</p>
+                                <p className="text-gray mb-5">"Tequre has been of tremendous value to the core development work we have been doing. Their engineers are thorough professional, very knowledgeable, and have adapted to the demands of the work quite well. They are always proactive and helpful to the other team members as well. A great asset for any team!"</p>
 
                                 <div>
                                     <h6 className="p-0">VP, Engineering & Head, India Product Operations</h6>
@@ -327,7 +329,7 @@ function page() {
                         </p>
 
                         {/* Button */}
-                        <button className="btn px-4 py-2 " style={{ background: "#C0202E", borderRadius: "15px", border: "none" }}>Talk to Platform Engineering Expert</button>
+                        <button className="btn px-4 py-2 text-white " style={{ background: "#C0202E", borderRadius: "15px", border: "none" }}>Talk to Platform Engineering Expert</button>
 
                     </div>
                 </div>
@@ -338,7 +340,7 @@ function page() {
                 <div className=" container mt-5 mb-5">
 
                     <div className=" text-center mt-5">
-                        <h2 className="mb-3 fw-bold">Why InfraCloud for Platform Engineering Consulting Services?</h2>
+                        <h2 className="mb-3 fw-bold">Why Tequre for Platform Engineering Consulting Services?</h2>
                         {/* <p className="text-gray fs-6">Our cloud native product development experts help you with<br></br>
                             end-to-end product development & support.</p> */}
                     </div>
@@ -416,7 +418,7 @@ function page() {
 
                                 {/* Paragraph */}
                                 <p className="text-gray">
-                                    Not sure about the idea? Build the MVP of your product with InfraCloud’s cloud native domain knowledge.</p>
+                                    Not sure about the idea? Build the MVP of your product with Tequre’s cloud native domain knowledge.</p>
                             </div>
 
                             {/* Col 2 */}

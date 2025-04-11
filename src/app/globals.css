@@ -133,6 +133,11 @@
   font-size: 16px;
   text-align: justify;
 }
+
+.contactLeftDiv{
+  background-color: #fff9f9;
+}
+
 .contactLeftDiv img {
   height: 30px;
   width: 30px;
@@ -258,7 +263,7 @@ color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-background-color: #f3f8fd;
+background-color: #ffffff;
 }
 
 .modal-backdrop {
@@ -364,7 +369,7 @@ background-color: #f3f8fd;
 }
 
 .top-to-bottom-color {
-  background: linear-gradient(to bottom, #ebf1f5, #ffffff);
+  background: linear-gradient(to bottom, #fff8f8, #ffffff);
 }
 
 .scrolling-image {
@@ -414,7 +419,7 @@ background-color: #f3f8fd;
 }
 
 .bg-dark-blue {
-  background: #1f1f1f;
+  background: #f3f3f3;
 }
 .bg-red {
   background: #000;
@@ -502,7 +507,7 @@ font-weight: 700;
   border: 1px solid rgb(232, 232, 232);
 }
 .subSubMenuDiv:hover{
-  background-color: #fdc11f;
+  background-color: #fbeded;
 }
 .subSubMenuDiv:focus {
   background-color: #fdc11f;
@@ -780,7 +785,7 @@ z-index: 1;
   }
 }
 .main-div{
-  background-color: #f3f8fd;
+  background-color: #ffffff;
 /* background-color: rgb(245, 243, 244); */
 /* background-color: #edf2f4; */
 /* background-color: #fffcf2; */
@@ -1077,7 +1082,7 @@ width: 7vw;
 
 /* brand section css */
 .brand-trust-us{
-  background-color: #f3f8fd;
+  background-color: #ffffff;
 }
 .brand-h{
   font-size: 37px;
@@ -1190,7 +1195,7 @@ font-size: 17px;
 
 
 .contactLeftDiv1{
-  background-color: #d4d4d4;
+  background-color: #ffffff;
 }
 .get-touch{
      font-size: 29px;
@@ -1225,4 +1230,70 @@ font-size: 17px;
     width: 100%;
     margin-top: 10px;
   }
+}
+
+
+/* product engineering css */
+.product-engineering-container {
+  padding: 20px;
+}
+
+.product-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  padding: 15px;
+  background-color: lightcoral; /* Light red */
+  color: black;
+}
+
+.product-section img {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  border: 2px solid red;
+}
+
+.product-section h2 {
+  color: red;
+}
+
+.product-section p {
+  color: black;
+}
+
+.product-card{
+  width: 28%;
+
+}
+
+.product-card img {
+  height: 30px ;
+}
+.area img {
+  height: 40px;
+}
+@media (max-width: 768px){
+  .product-card{
+    width: 40%;
+
+  }
+}
+@media (max-width: 530px){
+  .product-card{
+    width: 90%;
+
+  }
+}
+.nity-box{
+  border-radius: 8px;
+}
+
+.nity-box-h{
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+    background-color: #fd1f1f;
 }
