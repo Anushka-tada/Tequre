@@ -352,9 +352,10 @@ function page() {
                             <div className="col-lg-4 col-md-6 col-12  p-3">
                                 {/* Image */}
                                 <img
-                                    src="https://via.placeholder.com/40"
+                                    src="/assets/coding.png"
                                     alt="Example"
-                                    className="img-fluid mb-3 rounded-3"
+                                    className="img-fluid mb-3 rounded-3 service-logo"
+                                    height={30}
                                 />
 
                                 {/* Heading */}
@@ -370,9 +371,9 @@ function page() {
                             <div className="col-lg-4 col-md-6 col-12 p-3">
                                 {/* Image */}
                                 <img
-                                    src="https://via.placeholder.com/40"
+                                    src="/assets/domain.png"
                                     alt="Example"
-                                    className="img-fluid mb-3 rounded-3"
+                                    className="img-fluid mb-3 rounded-3  service-logo"
                                 />
 
                                 {/* Heading */}
@@ -387,9 +388,9 @@ function page() {
                             <div className="col-lg-4 col-md-6 col-12  p-3">
                                 {/* Image */}
                                 <img
-                                    src="https://via.placeholder.com/40"
+                                    src="/assets/first-move.png"
                                     alt="Example"
-                                    className="img-fluid mb-3 rounded-3"
+                                    className="img-fluid mb-3 rounded-3  service-logo"
                                 />
 
                                 {/* Heading */}
@@ -408,9 +409,9 @@ function page() {
                             <div className="col-lg-4 col-md-6 col-12 p-3">
                                 {/* Image */}
                                 <img
-                                    src="https://via.placeholder.com/40"
+                                    src="/assets/training.png"
                                     alt="Example"
-                                    className="img-fluid mb-3 rounded-3"
+                                    className="img-fluid mb-3 rounded-3  service-logo"
                                 />
 
                                 {/* Heading */}
@@ -425,9 +426,9 @@ function page() {
                             <div className="col-lg-4 col-md-6 col-12 p-3">
                                 {/* Image */}
                                 <img
-                                    src="https://via.placeholder.com/40"
+                                    src="/assets/certified.png"
                                     alt="Example"
-                                    className="img-fluid mb-3 rounded-3"
+                                    className="img-fluid mb-3 rounded-3  service-logo"
                                 />
 
                                 {/* Heading */}
@@ -442,9 +443,9 @@ function page() {
                             <div className="col-lg-4 col-md-6 col-12  p-3">
                                 {/* Image */}
                                 <img
-                                    src="https://via.placeholder.com/40"
+                                    src="/assets/expand.png"
                                     alt="Example"
-                                    className="img-fluid mb-3 rounded-3"
+                                    className="img-fluid mb-3 rounded-3 service-logo "
                                 />
 
                                 {/* Heading */}
@@ -464,7 +465,7 @@ function page() {
 
             {/* =================================================================================================================================== */}
 
-            <div className="mt-5 top-to-bottom-color">
+            {/* <div className="mt-5 top-to-bottom-color">
                 <div className=" container mt-5 mb-5">
 
                     <div className=" text-center">
@@ -473,9 +474,9 @@ function page() {
 
                     <div className="row  p-3 d-flex justify-content-evenly mt-5 ">
 
-                        {/* Child Div 1 */}
+                       
                         <div className=" col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+                         
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/blog/devops-to-platform-engineering-how-we-got-here/devops-to-platform-engineering-how-we-got-here-1200x628.png"
@@ -485,20 +486,21 @@ function page() {
                             </div>
 
                             <div className="position-relative mt-3 py-3">
-                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded" style={{
-                                    backgroundColor: "lavender",
-                                    color: "blue"
+                                <span className="fs-6 position-absolute bottom-100 px-4 py-1 rounded" style={{
+                                   
+                                    color: "red",
+                                    border: "1px solid red"
                                 }}>Blog</span>
 
-                                {/* Heading */}
+                              
                                 <h5 className="mb-2 ">Monitoring Kubernetes Clusters by “chatting” with them</h5>
                             </div>
 
                         </div>
 
-                        {/* Child Div 2 */}
+                       
                         <div className="col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/platform-engineering-consulting/platform-engineering-maturity-model-cncf.png"
@@ -508,20 +510,21 @@ function page() {
                             </div>
 
                             <div className="position-relative mt-3 py-3">
-                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded" style={{
-                                    backgroundColor: "lavender",
-                                    color: "blue"
+                                <span className="fs-6 position-absolute bottom-100 px-4 py-1 rounded" style={{
+                                    
+                                    color: "red",
+                                     border: "1px solid red"
                                 }}>Contribution</span>
 
-                                {/* Heading */}
+                              
                                 <h5 className="mb-2 ">Building a Modern Chatops Platform</h5>
                             </div>
 
                         </div>
 
-                        {/* Child Div 3 */}
+                      
                         <div className="col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+                           
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/blog/what-is-platform-engineering/what-is-platform-engineering-1200x628.png"
@@ -531,12 +534,11 @@ function page() {
                             </div>
 
                             <div className="position-relative mt-3 py-3">
-                                <span className="fs-6 position-absolute bottom-100 px-4 py-2 rounded" style={{
-                                    backgroundColor: "lavender",
-                                    color: "blue"
+                                <span className="fs-6 position-absolute bottom-100 px-4 py-1 rounded" style={{
+                                     border: "1px solid red",
+                                    color: "red"
                                 }}>Blog</span>
 
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Kubernetes Monitoring Made Simple with BotKube</h5>
                             </div>
 
@@ -545,7 +547,7 @@ function page() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
             {/* ================================================================================================================================ */}
 
             <div className="bg-dark-blue">
