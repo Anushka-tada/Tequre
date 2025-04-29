@@ -540,6 +540,11 @@ function Navbar({selectedItem}) {
        url:"/analytics"
     },
   ];
+
+  const handleContact =() => {
+      
+  }
+
   // const isNavActive = (name) => {
   //   if (name == "Service" && showServiceModal) {
   //     return "navActive";
@@ -607,9 +612,11 @@ function Navbar({selectedItem}) {
                 );
               })}
             </ul>
-            <div className="contact-btn mx-3 ">
+           <a href="/contactus" className="contactus-a">
+           <div className="contact-btn mx-3 " >
                                 <p className=' fontSize18  fontBold '>Contact us</p>
                             </div>
+                            </a>
           </div>
         </div>
       </nav>

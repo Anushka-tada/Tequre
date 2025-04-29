@@ -75,7 +75,7 @@ function page() {
 
                             {/* Left Side */}
                             <div className="col-7 ">
-                                <h4 className="mb-3">SProduct Market Fit Assessment</h4>
+                                <h4 className="mb-3 text-uppercase fw-bolder">SProduct Market Fit Assessment</h4>
                                 <p className="text-gray">With advances in Gen AI, data privacy and security are more important than ever. With 137+ countries enacting some form of data protection and sovereignty laws, build AI cloud with data residency policies in place for data protection and privacy. With InfraCloud Sovereign AI Cloud, you can achieve digital sovereignty without stressing about all the operational complexity.</p>
 
                                 <div>
@@ -113,7 +113,7 @@ function page() {
 
                             {/* Left Side */}
                             <div className="col-7 ">
-                                <h4 className="mb-3">MVP Strategy & Platform Roadmap Consulting</h4>
+                                <h4 className="mb-3 text-uppercase fw-bolder">MVP Strategy & Platform Roadmap Consulting</h4>
                                 <p className="text-gray">Tequre AI BareMetal platform provides GPU instances to consumers with a prebuilt & configured software stack. Tequre AI Orchestration platform utilizes the power of containers and Kubernetes to manage AI infrastructure while bin packing for efficiency. Get immediate access to the tools and frameworks you need to share GPU without the setup hassle.</p>
 
                                 <div>
@@ -136,7 +136,7 @@ function page() {
 
                             {/* Left Side */}
                             <div className="col-7 ">
-                                <h4 className="mb-3">Platform Design and Development</h4>
+                                <h4 className="mb-3 text-uppercase fw-bolder">Platform Design and Development</h4>
                                 <p className="text-gray">With Tequre AI MLOps Platform, data scientists and engineers can build, train & deploy models and run AI and MLOps experiments without spending energy and resources managing GPU cloud infrastructure. Manage multiple cloud resources, data sources, server requests, system performance, logs, policies, etc, and administer all the management and business functionality through a single pane of glass with the Tequre AI Control plane.</p>
 
                                 <div>
@@ -175,7 +175,7 @@ function page() {
 
                             {/* Left Side */}
                             <div className="col-7 ">
-                                <h4 className="mb-3">Integrations & Ecosystem Setup</h4>
+                                <h4 className="mb-3 text-uppercase fw-bolder">Integrations & Ecosystem Setup</h4>
                                 <p className="text-gray">Our AI experts will ensure that agents, models, and AI infrastructure remain healthy, resilient, and up to date to meet the regularly changing business demands and win the competitive advantage through speed.</p>
 
                                 <div>
@@ -196,7 +196,7 @@ function page() {
 
                             {/* Left Side */}
                             <div className="col-7 ">
-                                <h4 className="mb-3">Platform Support & Maintenance</h4>
+                                <h4 className="mb-3 text-uppercase fw-bolder">Platform Support & Maintenance</h4>
                                 <p className="text-gray">With Tequre AI MLOps Platform, data scientists and engineers can build, train & deploy models and run AI and MLOps experiments without spending energy and resources managing GPU cloud infrastructure. Manage multiple cloud resources, data sources, server requests, system performance, logs, policies, etc, and administer all the management and business functionality through a single pane of glass with the Tequre AI Control plane.</p>
 
                                 <div>
@@ -235,7 +235,7 @@ function page() {
 
                             {/* Left Side */}
                             <div className="col-7 ">
-                                <h4 className="mb-3">Platform Engineering Training & Support</h4>
+                                <h4 className="mb-3 text-uppercase fw-bolder">Platform Engineering Training & Support</h4>
                                 <p className="text-gray">Our AI experts will ensure that agents, models, and AI infrastructure remain healthy, resilient, and up to date to meet the regularly changing business demands and win the competitive advantage through speed.</p>
 
                                 <div>

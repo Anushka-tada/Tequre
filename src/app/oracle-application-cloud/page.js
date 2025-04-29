@@ -173,8 +173,8 @@ function page() {
 
                     <div className="text-center py-4 px-2">
 
-                        <button className="contact-btn btn-success shadow my-auto "
-                            style={{ background: "#C0202E", borderRadius: "15px", border: "none" }}
+                        <button className="contact-btn text-white shadow my-auto "
+                            style={{ background: "#C0202E",  border: "none" }}
                         >Contact Us</button>
                     </div>
                 </div>
@@ -270,7 +270,7 @@ function page() {
             <WeOpenSource />
             {/* ====================================================================================================================== */}
 
-            <div className="">
+            {/* <div className="">
                 <div className=" container mt-3">
 
                     <div className=" text-center">
@@ -279,9 +279,8 @@ function page() {
 
                     <div className="row  p-3 d-flex justify-content-evenly mt-5 ">
 
-                        {/* Child Div 1 */}
                         <div className=" col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+                          
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/blog/blog-updated-creatives/index-image/writing-serverless-workloads-on-kubernetes-with-fission-1200x628.png"
@@ -296,15 +295,13 @@ function page() {
                     color: "red",
                   }}>Blog</span>
 
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Writing Serverless Workloads on Kubernetes using Fission</h5>
                             </div>
 
                         </div>
 
-                        {/* Child Div 2 */}
                         <div className="col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+                         
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/devtalk-details/hands-on-introduction-to-fission.png"
@@ -319,15 +316,11 @@ function page() {
                     color: "red",
                   }}>Tech Talk</span>
 
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Hands-on Introduction to Fission</h5>
                             </div>
 
                         </div>
-
-                        {/* Child Div 3 */}
                         <div className="col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/customers/building-a-faas-platform-on-kubernetes.png"
@@ -341,8 +334,6 @@ function page() {
                     backgroundColor: "rgb(255, 241, 241)",
                     color: "red",
                   }}>Case Study</span>
-
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Building a Faas Platform on Kubernetes</h5>
                             </div>
 
@@ -351,7 +342,7 @@ function page() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
             {/* ===================================================================================================================== */}
 

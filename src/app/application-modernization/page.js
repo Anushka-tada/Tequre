@@ -119,7 +119,7 @@ const ProductEngineering = () => {
       {/* ======================================================================================================================================== */}
 
       {/* =================================================================================================================================== */}
-
+{/* 
       <div className="mt-5 top-to-bottom-color">
         <div className=" container mt-5 mb-5">
           <div className=" text-center">
@@ -127,9 +127,9 @@ const ProductEngineering = () => {
           </div>
 
           <div className="row  p-3 d-flex justify-content-evenly mt-5 ">
-            {/* Child Div 1 */}
+ 
             <div className=" col-md-3 col-12 hover-effect hover-shadow">
-              {/* Image */}
+     
               <div>
                 <img
                   src="https://www.infracloud.io/assets/img/blog/blog-updated-creatives/index-image/announcing-bot-framework-sdk-for-go-1200x628.png"
@@ -149,14 +149,13 @@ const ProductEngineering = () => {
                   Blog
                 </span>
 
-                {/* Heading */}
                 <h5 className="mb-2 ">Announcing Bot Framework SDK for Go </h5>
               </div>
             </div>
 
-            {/* Child Div 2 */}
+   
             <div className="col-md-3 col-12 hover-effect hover-shadow">
-              {/* Image */}
+             
               <div>
                 <img
                   src="https://www.infracloud.io/assets/img/customers/building-a-cloud-native-software-defined-storage-platform.png"
@@ -176,16 +175,16 @@ const ProductEngineering = () => {
                   Case Study
                 </span>
 
-                {/* Heading */}
+           
                 <h5 className="mb-2 ">
                   Building a Cloud Native Software Defined Storage Platform
                 </h5>
               </div>
             </div>
 
-            {/* Child Div 3 */}
+          
             <div className="col-md-3 col-12 hover-effect hover-shadow">
-              {/* Image */}
+           
               <div>
                 <img
                   src="https://www.infracloud.io/assets/img/devtalk-details/tinkerbell-automated-baremetal-provisioning-engine.png"
@@ -205,7 +204,7 @@ const ProductEngineering = () => {
                   Tech Talk
                 </span>
 
-                {/* Heading */}
+               
                 <h5 className="mb-2 ">
                   Tinkerbell: An Automated Bare Metal Provisioning Engine
                 </h5>
@@ -213,7 +212,7 @@ const ProductEngineering = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ================================================================================================================================ */}
 
       <Footer />

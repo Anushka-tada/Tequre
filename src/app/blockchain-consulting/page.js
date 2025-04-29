@@ -693,16 +693,14 @@ function page() {
       </div>
       {/* =============================================================================================================================================== */}
 
-      <div className="mt-5 top-to-bottom-color">
+      {/* <div className="mt-5 top-to-bottom-color">
         <div className=" container mt-5 mb-5">
           <div className=" text-center">
             <h3 className="fw-bold py-2">Evangelizing IDPs and Platform Engineering</h3>
           </div>
 
           <div className="row  p-3 d-flex justify-content-evenly mt-5 ">
-            {/* Child Div 1 */}
             <div className=" col-md-3 col-12 hover-effect hover-shadow">
-              {/* Image */}
               <div>
                 <img
                   src="https://www.infracloud.io/assets/img/download-pdf/platform-engineering-ebook-og.png"
@@ -723,14 +721,12 @@ function page() {
                   eBook
                 </span>
 
-                {/* Heading */}
                 <h5 className="mb-2 ">Platform Engineering Reference Architecture</h5>
               </div>
             </div>
 
-            {/* Child Div 2 */}
             <div className="col-md-3 col-12 hover-effect hover-shadow">
-              {/* Image */}
+
               <div>
                 <img
                   src="https://www.infracloud.io/assets/img/blog/starting-platform-engineering-journey-with-backstage/unlocking-developer-productivity-with-backstage-1200x628.png"
@@ -750,15 +746,11 @@ function page() {
                 >
                   Blog
                 </span>
-
-                {/* Heading */}
                 <h5 className="mb-2 ">Starting Platform Engineering Journey with Backstage</h5>
               </div>
             </div>
-
-            {/* Child Div 3 */}
             <div className="col-md-3 col-12 hover-effect hover-shadow">
-              {/* Image */}
+      
               <div>
                 <img
                   src="https://www.infracloud.io/assets/img/platform-engineering-consulting/platform-engineering-maturity-model-cncf.png"
@@ -778,14 +770,12 @@ function page() {
                 >
                   Contribution
                 </span>
-
-                {/* Heading */}
                 <h5 className="mb-2 ">Platform Engineering Maturity Model by CNCF</h5>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* =============================================================================================================================================== */}
 
       <div className="bg-dark-grey">

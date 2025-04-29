@@ -581,8 +581,8 @@ function page() {
                 <div className="container mt-5 p-3 text-white">
 
                     <div className=" p-3 mb-3 text-center">
-                        <h2 className="fw-bold">Ready to Get Started with Managed Services for K8s?</h2>
-                        <p className="fs-6">Discuss your project with one of the Managed Services experts.</p>
+                        <h2 className="fw-bold text-dark">Ready to Get Started with Managed Services for K8s?</h2>
+                        <p className="fs-6 text-dark">Discuss your project with one of the Managed Services experts.</p>
                     </div>
 
 
@@ -590,7 +590,7 @@ function page() {
                         {/* First Inner Div */}
                         <div className=" p-2 mb-3 text-center">
                             {/* Paragraph */}
-                            <p>Trusted by 100+ companies worldwide</p>
+                            <p className='text-dark'>Trusted by 100+ companies worldwide</p>
 
                             {/* Horizontal Line */}
                             <hr className="my-2" />
@@ -607,7 +607,7 @@ function page() {
 
                         {/* Second Inner Div */}
                         <div className=" p-2 mb-3">
-                            <h5>Calender Calender Calender Calender Calender</h5>
+                            <h5 className='text-dark'>Calender Calender Calender Calender Calender</h5>
                             <img
                                 src="https://www.infracloud.io/assets/img/customers/calendly-section-all-customer-logos.svg"
                                 alt="Example"

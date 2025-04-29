@@ -241,7 +241,7 @@ function page() {
             <WeOpenSource />
             {/* ================================================================================================================================== */}
 
-            <div className="mt-5 top-to-bottom-color">
+            {/* <div className="mt-5 top-to-bottom-color">
                 <div className=" container mt-3 mb-5">
 
                     <div className=" text-center">
@@ -249,10 +249,8 @@ function page() {
                     </div>
 
                     <div className="row  p-3 d-flex justify-content-evenly mt-5 ">
-
-                        {/* Child Div 1 */}
                         <div className=" col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+                            
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/devtalk-details/monitoring-kubernetes-clusters-by-chatting-with-them.png"
@@ -266,16 +264,13 @@ function page() {
                     backgroundColor: "rgb(255, 241, 241)",
                     color: "red",
                   }}>Tech Talk</span>
-
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Monitoring Kubernetes Clusters by “chatting” with them</h5>
                             </div>
 
                         </div>
 
-                        {/* Child Div 2 */}
                         <div className="col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+                 
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/blog/blog-updated-creatives/index-image/building-a-modern-chatops-platform-1200x628.png"
@@ -289,16 +284,13 @@ function page() {
                     backgroundColor: "rgb(255, 241, 241)",
                     color: "red",
                   }}>Blog</span>
-
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Building a Modern Chatops Platform</h5>
                             </div>
 
                         </div>
 
-                        {/* Child Div 3 */}
                         <div className="col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+  
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/devtalk-details/kubernetes-monitoring-made-simple-with-botkube.png"
@@ -312,8 +304,6 @@ function page() {
                     backgroundColor: "rgb(255, 241, 241)",
                     color: "red",
                   }}>Tech Talk</span>
-
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Kubernetes Monitoring Made Simple with BotKube</h5>
                             </div>
 
@@ -322,7 +312,7 @@ function page() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
             {/* =================================================================================================================================== */}
 
             <div className="">

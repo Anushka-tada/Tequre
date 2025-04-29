@@ -173,8 +173,8 @@ function page() {
 
                     <div className="text-center py-4 px-2">
 
-                        <button className=" btn-success shadow my-auto contact-btn"
-                            style={{ background: "#C0202E", borderRadius: "15px", border: "none" }}
+                        <button className=" shadow my-auto contact-btn text-white"
+                            style={{ background: "#C0202E", border: "none" }}
                         >Contact Us</button>
                     </div>
                 </div>
@@ -271,7 +271,7 @@ function page() {
             <WeOpenSource />
             {/* ====================================================================================================================== */}
 
-            <div className="">
+            {/* <div className="">
                 <div className=" container mt-3">
 
                     <div className=" text-center">
@@ -279,10 +279,8 @@ function page() {
                     </div>
 
                     <div className="row  p-3 d-flex justify-content-evenly mt-5 ">
-
-                        {/* Child Div 1 */}
                         <div className=" col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+                   
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/blog/blog-updated-creatives/index-image/writing-serverless-workloads-on-kubernetes-with-fission-1200x628.png"
@@ -296,16 +294,11 @@ function page() {
                     backgroundColor: "rgb(255, 241, 241)",
                     color: "red",
                   }}>Blog</span>
-
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Writing Serverless Workloads on Kubernetes using Fission</h5>
                             </div>
 
                         </div>
-
-                        {/* Child Div 2 */}
                         <div className="col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/devtalk-details/hands-on-introduction-to-fission.png"
@@ -319,16 +312,12 @@ function page() {
                     backgroundColor: "rgb(255, 241, 241)",
                     color: "red",
                   }}>Tech Talk</span>
-
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Hands-on Introduction to Fission</h5>
                             </div>
 
                         </div>
-
-                        {/* Child Div 3 */}
                         <div className="col-md-3 col-12 hover-effect hover-shadow">
-                            {/* Image */}
+                            
                             <div >
                                 <img
                                     src="https://www.infracloud.io/assets/img/customers/building-a-faas-platform-on-kubernetes.png"
@@ -342,8 +331,6 @@ function page() {
                     backgroundColor: "rgb(255, 241, 241)",
                     color: "red",
                   }}>Case Study</span>
-
-                                {/* Heading */}
                                 <h5 className="mb-2 ">Building a Faas Platform on Kubernetes</h5>
                             </div>
 
@@ -352,14 +339,14 @@ function page() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
             {/* ===================================================================================================================== */}
 
             <div className="mt-5 mb-5">
                 <div className="mt-5 mb-5 p-5 border border-gray container bg-purple text-center" style={{ borderRadius: "12px" }}>
                     <h3 className="p-2 text-white">Let your Developers Focus on the Code without <br></br>Worrying about the Kubernetes Clusters.</h3>
-                    <button className="btn px-5 py-2 text-light" style={{ background: "#C0202E",  border: "none" }}>Contact Us</button>
+                    <button className="btn px-5 py-2 text-light " style={{ background: "#C0202E",  border: "none" }} >Contact Us</button>
                 </div>
             </div>
 
