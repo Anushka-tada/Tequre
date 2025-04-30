@@ -139,7 +139,7 @@ function ZigzagSection({ data }) {
                   <h3 className="smaller-heading">{v.heading}</h3>
                   <p className="smaller-para">{v.para}</p>
                   <Link href={v.link}
-                  className="btn fw-bold text-uppercase shadow smaller-btn text-light" style={{ background: "#d3231d" }} > Learn More
+                  className="btn fw-bold text-uppercase shadow smaller-btn text-light" style={{ background: "#da896b" }} > Learn More
                    </Link>
                 </div>
               </div>
@@ -160,7 +160,7 @@ function ZigzagSection({ data }) {
                   <h3 className="smaller-heading">{v.heading}</h3>
                   <p className="smaller-para">{v.para}</p>
                   <Link  href={v.link}
-                   className="btn fw-bold text-uppercase shadow smaller-btn text-light" style={{ background: "#d3231d" }}> 
+                   className="btn fw-bold text-uppercase shadow smaller-btn text-light" style={{ background: "#da896b" }}> 
                    Learn More
                    </Link>
                 </div>

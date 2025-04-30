@@ -35,9 +35,9 @@ function HeroSection() {
      
     </div>
     <img src="/assets/uu.png" alt="" className="img-2 position-absolute "   />
-    <img src="/assets/rr.png" alt="" className="img-1 position-absolute "   />
+    {/* <img src="/assets/rr.png" alt="" className="img-1 position-absolute "   /> */}
     <div class="hero-image">
-      <img src="/assets/hero.png" alt="Hero" class="img" />
+      <img src="/assets/heroimage.jpg" alt="Hero" class="img" />
     </div>
   </div>
 

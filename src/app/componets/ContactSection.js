@@ -124,7 +124,7 @@ function ContactSection() {
   return (
     <div className="containerr mt-5 pt-4">
       <div className="pageHeading">
-        <h2 style={{color:"#CC1526"}}>Contact Us</h2>
+        <h2 style={{color:"#da896b"}}>Contact Us</h2>
         
       </div>
       <div className="row m-0 p-4 my-5 contactLeftDiv ">
@@ -172,7 +172,7 @@ function ContactSection() {
         </div>
         <div className="col-lg-7 col-12 mt-5 p-0 order-1 order-lg-2 touch-form" >
           <div className="p-lg-4 p-2 m-2" >
-            <h4 className='text-secondary text-danger'>Get In Touch</h4>
+            <h4 className='get-touch'>Get In Touch</h4>
             <form className="row g-3 my-auto">
             <div className="col-md-6">
                 <label htmlFor="inputPassword4" className="form-label">

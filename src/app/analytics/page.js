@@ -56,7 +56,7 @@ function page() {
 
                         <div className="col-md-6 col-12 ">
                             <img
-                                src="https://www.infracloud.io/assets/img/devops-consulting-services/ci-cd-services.svg"
+                                src="/assets/analytics1.jpg"
                                 alt="Logo"
                                 className="img-fluid"
                             />
@@ -234,7 +234,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5  text-end">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/ci-cd-consulting-services/ci-cd-consulting.svg"
+                                    src="/assets/analytics2.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
@@ -250,7 +250,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5  text-start d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/ci-cd-consulting-services/ci-cd-design.svg"
+                                    src="/assets/analytics3.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
@@ -290,7 +290,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5 text-end d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/ci-cd-consulting-services/ci-cd-Implementation.svg"
+                                    src="/assets/analytics4.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
@@ -305,7 +305,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5  text-start d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/ci-cd-consulting-services/ci-cd-training.svg"
+                                    src="/assets/analytics5.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />

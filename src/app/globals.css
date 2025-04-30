@@ -143,7 +143,8 @@
   width: 30px;
 }
 .contactLeftDiv h5 {
-  color: #d3231d;
+  /* color: #d3231d; */
+ color: #da896b;
   font-size: 33px;
 }
 @media  (max-width:576px){
@@ -252,7 +253,8 @@
 .companyStripSection-heading{
    padding-top: 14px;
   border-radius: 20px;
-background-color: #d3231d;
+/* background-color: #d3231d; */
+background-color: #da896b;
 color: white;
 
 }
@@ -429,12 +431,12 @@ background-color: #ffffff;
 }
 .navTabMain {
   border-radius: 4px;
-  background-color: #d3231d;
+  /* background-color: #d3231d; */
+  background-color: #da896b;
  color: white;
   
 }
 .navTab {
-  /* background-color: #FAFBFF; */
   font-family: poppins;
   border-radius: 24px;
   /* opacity: 0.7; */
@@ -478,14 +480,16 @@ background-color: #ffffff;
 .selcted-navTabMain{
  
 border-radius: 4px;
-background-color: #000000;
+/* background-color: #000000; */
+background-color: #8d8d8d;
   color: white;
   text-transform: uppercase;
 color: #ffffff;
 font-weight: 700;
 }
 .send-message{
-  background-color: #d3231d;
+  /* background-color: #d3231d; */
+  background-color: #da896b;
   color: rgb(255, 255, 255);
   width: 160px;
   height: 37px;
@@ -630,7 +634,8 @@ left: 35% ;
 z-index: 1;
 }
 .outer-location-box{
-  background-color: #d3231d;
+  /* background-color: #d3231d; */
+  background-color: #da896b;
   position: absolute;
   left: 54%;
    top: -20%;
@@ -860,7 +865,7 @@ z-index: 1;
   background-size: cover;
   background-repeat: no-repeat; 
   background-position: center;  */
-  background-color: #fdf2f2;
+  /* background-color: #fdf2f2; */
  
   width: 100%;
 }
@@ -915,8 +920,8 @@ body , html{
 .navbar{
     
    padding-top: 20px !important;
-    /* background-image: url("/assets/backround.jpg"); */
-    background-color: #fdf2f2;
+    /* background-color: #fdf2f2; */
+    background-color: white;
 
 }
 .collapse{
@@ -935,15 +940,17 @@ body , html{
 
 
 .heading{
-  /* color: rgb(250, 191, 15); */
   /* font-size:60px; */
-  color: #c0202e;
+  /* color: #c0202e; */
+  color: #524f4f;
   font-size: 4.1vw;
   font-weight:800;
   line-height: 50px;
+  margin-top: 140px;
 }
 .head2{
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
+  color: #524f4f;
   /* font-size:44px; */
   font-size: 3vw;
   font-weight:800;  
@@ -1001,7 +1008,7 @@ body , html{
 .img{
   margin-top: 40px;
   /* width: 612px !important; */
-  width: 44vw !important;
+  width: 39vw !important;
 }
 
 .img-1{
@@ -1091,7 +1098,8 @@ width: 7vw;
 .brand-h{
   font-size: 37px;
 text-transform: uppercase;
-color: #d3231d;
+/* color: #d3231d; */
+color: #da896b;
 font-weight: 900;
 
 }
@@ -1118,7 +1126,8 @@ font-weight: 900;
 /* Nitty Gritty Section Style */
 
 .nity-grity-h{
-  color: #d3231d;
+  /* color: #d3231d; */
+ color: #da896b;
    font-size: 34px;
    font-weight: 900;
    transform: scaleY(1.3);
@@ -1160,7 +1169,8 @@ font-size: 25px;
 padding: 8px 0px;
 }
 .bank-bg{
-  background-color: #d3231d;
+  /* background-color: #d3231d; */
+  background-color: #da896b;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
 }
@@ -1203,7 +1213,8 @@ font-size: 17px;
 }
 .get-touch{
      font-size: 29px;
-     color: #fd1f1f;
+     /* color: #fd1f1f; */
+     color: #da896b;
 }
 .contact-img{
   height: 90%;
