@@ -137,7 +137,8 @@ function page() {
 
             {/* ========================================================================================================================== */}
 
-            <div className="bg-very-dark-blue border mt-5 mb-5 py-5">
+             {/* removed */}
+            {/* <div className="bg-very-dark-blue border mt-5 mb-5 py-5">
                 <div className=" container mt-5 text-white">
                     <h3 className="text-center">More than 100+ Organizations have already adopted<br></br> Fission for FaaS on Kubernetes</h3>
 
@@ -182,7 +183,7 @@ function page() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* ================================================================================================================================ */}
 
             <div className="">
@@ -356,8 +357,8 @@ function page() {
             </div>
 
             {/* =========================================================================================================================== */}
-
-            <div className="mt-5 mb-5">
+               {/* removed */}
+            {/* <div className="mt-5 mb-5">
                 <div className="mt-5 mb-5 p-5 border border-primary container bg-purple text-center" style={{ borderRadius: "12px" }}>
                     <h2 className="p-2 text-white">Seamlessly Manage your Kubernetes Clusters <br></br>from your Messaging Platform.</h2>
 
@@ -365,7 +366,7 @@ function page() {
                     <button className="btn px-5 text-light py-2 " style={{ background: "#C0202E",  border: "none" }}>Add to Items</button>
 
                 </div>
-            </div>
+            </div> */}
             {/* ============================================================================================================================== */}
             <Footer />
 

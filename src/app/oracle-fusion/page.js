@@ -173,15 +173,17 @@ function page() {
 
                     <div className="text-center py-4 px-2">
 
-                        <button className=" shadow my-auto contact-btn text-white"
+                       <a href="/contactus" className="contactus-a">
+                       <button className=" shadow my-auto contact-btn text-white"
                             style={{ background: "#C0202E", border: "none" }}
                         >Contact Us</button>
+                       </a>
                     </div>
                 </div>
             </div>
 
             {/* ================================================================================================================= */}
-            <div className="bg-very-dark-blue border mt-5 mb-5 py-5">
+            {/* <div className="bg-very-dark-blue border mt-5 mb-5 py-5">
                 <div className=" container mt-5 text-white">
                     <h3 className="text-center">More than 100+ Organizations have already adopted<br></br> Fission for FaaS on Kubernetes</h3>
 
@@ -226,7 +228,7 @@ function page() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             {/* ======================================================================================================================== */}
@@ -346,7 +348,9 @@ function page() {
             <div className="mt-5 mb-5">
                 <div className="mt-5 mb-5 p-5 border border-gray container bg-purple text-center" style={{ borderRadius: "12px" }}>
                     <h3 className="p-2 text-white">Let your Developers Focus on the Code without <br></br>Worrying about the Kubernetes Clusters.</h3>
-                    <button className="btn px-5 py-2 text-light " style={{ background: "#C0202E",  border: "none" }} >Contact Us</button>
+                  <a href="/contactus" className="contactus-a">
+                  <button className="btn px-5 py-2 text-light " style={{ background: "#C0202E",  border: "none" }} >Contact Us</button>
+                  </a>
                 </div>
             </div>
 

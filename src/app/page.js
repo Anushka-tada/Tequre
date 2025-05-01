@@ -9,44 +9,44 @@ import { useState } from "react";
 export default function Home() {
   const cloudData = [
     {
-      img: "/assets/home1.png",
+      img: "/assets/home01.jpg",
       heading: "Build GPU Cloud",
       para: "Build an AI Cloud with GPUs or other processing units & open source technologies. Our expertise in bare metal provisioning with Tinkerbell, private cloud with OpenStack and cloud native technologies such as Kubernetes, Prometheus, and Kubeflow have enabled organizations to build private/public GPU cloud.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/home2.png",
+      img: "/assets/home02.jpg",
       heading: "CI/CD for Code, Data & Models",
       para: "Setting up the right source code practices & a way to continuously integrate and deliver code along with data & models is crucial for the success of an AI platform. We have coached on practices that work & built pipelines for organizations to deliver business goals to production seamlessly.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/home3.png",
+      img: "/assets/home03.jpg",
       heading: "Workflow Orchestration",
       para: "Orchestrating the workflows of data pipelines and executing them at scale is crucial to an AI platform. We build, deploy, and scale workflow orchestration systems on scalable infrastructure to execute them at the speed of business needs.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/home4.png",
+      img: "/assets/home04.jpg",
       heading: "Model Registry & Metadata Stores",
       para: "A distributed & stable model registry needed to serve the right model when an application is needed is crucial for an AI platform that is global in nature. It is also crucial to capture the right metadata of models in a registry or separate database, depending on business needs.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/home5.png",
+      img: "/assets/home05.jpg",
       heading: "Feature Stores",
       para: "A feature store that can serve the needs of model training as well as in the prediction request path is needed for the AI platform to deliver value to both sets of customers successfully. We build & deploy these on right infrastructure based on the needs of the business.",
       link: "/ai-cloud",
     },
 
     {
-      img: "/assets/home6.png",
+      img: "/assets/home06.jpg",
       heading: "Model Serving",
       para: "Serving models to end users in request path, with accuracy & low latency not only improves user experience but also business value. We deploy and configure the serving components to deliver to users.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/home7.png",
+      img: "/assets/home07.jpg",
       heading: "Model Observability & Feedback Loops",
       para: "Redirecting requests to the right model and observing the accuracy of results & model performance is crucial to ensuring the intended & actual business outcomes are aligned. We use a combination of infra and model observability technologies to achieve this.",
       link: "/ai-cloud",
@@ -99,44 +99,44 @@ export default function Home() {
   ];
   const cloudConsultingData = [
     {
-      img: "/assets/1.png",
+      img: "/assets/home01.jpg",
       heading: "Build GPU Cloud",
       para: "Build an AI Cloud with GPUs or other processing units & open source technologies. Our expertise in bare metal provisioning with Tinkerbell, private cloud with OpenStack and cloud native technologies such as Kubernetes, Prometheus, and Kubeflow have enabled organizations to build private/public GPU cloud.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/2.png",
+      img: "/assets/home02.jpg",
       heading: "CI/CD for Code, Data & Models",
       para: "Setting up the right source code practices & a way to continuously integrate and deliver code along with data & models is crucial for the success of an AI platform. We have coached on practices that work & built pipelines for organizations to deliver business goals to production seamlessly.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/3.png",
+      img: "/assets/home03.jpg",
       heading: "Workflow Orchestration",
       para: "Orchestrating the workflows of data pipelines and executing them at scale is crucial to an AI platform. We build, deploy, and scale workflow orchestration systems on scalable infrastructure to execute them at the speed of business needs.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/4.png",
+      img: "/assets/home04.jpg",
       heading: "Model Registry & Metadata Stores",
       para: "A distributed & stable model registry needed to serve the right model when an application is needed is crucial for an AI platform that is global in nature. It is also crucial to capture the right metadata of models in a registry or separate database, depending on business needs.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/5.png",
+      img: "/assets/home05.jpg",
       heading: "Feature Stores",
       para: "A feature store that can serve the needs of model training as well as in the prediction request path is needed for the AI platform to deliver value to both sets of customers successfully. We build & deploy these on right infrastructure based on the needs of the business.",
       link: "/ai-cloud",
     },
 
     {
-      img: "/assets/6.png",
+      img: "/assets/home06.jpg",
       heading: "Model Serving",
       para: "Serving models to end users in request path, with accuracy & low latency not only improves user experience but also business value. We deploy and configure the serving components to deliver to users.",
       link: "/ai-cloud",
     },
     {
-      img: "/assets/7.png",
+      img: "/assets/home07.jpg",
       heading: "Model Observability & Feedback Loops",
       para: "Redirecting requests to the right model and observing the accuracy of results & model performance is crucial to ensuring the intended & actual business outcomes are aligned. We use a combination of infra and model observability technologies to achieve this.",
       link: "/ai-cloud",
@@ -270,7 +270,7 @@ export default function Home() {
         <div className="container">
           <div className="row gx-5 d-flex justify-content-around nitty-row1">
             <div className="col-lg-5 col-12 ">
-              <img className="img-fluid my-3" src="/assets/home8.png" />
+              <img className="img-fluid my-3" src="/assets/home08.jpg" />
             </div>
             <div className="col-lg-6 col-12 d-flex flex-column justify-content-center ">
               <h3 className=" mb-3 nity-grity-h">

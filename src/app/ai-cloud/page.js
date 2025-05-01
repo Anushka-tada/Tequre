@@ -366,7 +366,8 @@ export default function AiCloud() {
         </div>
       </div>
       {/* Swipper Container */}
-      <div className="top-to-bottom-color">
+      {/* removed */}
+      {/* <div className="top-to-bottom-color">
         <div className="container r mt-5 pt-5">
           <div className="s text-center">
             <h3 className="fw-bold pt-5 pt-lg-0 ">Team with Diverse Set of AI Cloud Expertise</h3>
@@ -375,7 +376,7 @@ export default function AiCloud() {
             </p>
           </div>
 
-          {/* Swipper */}
+        
           <div id="carouselExampleSlidesOnly" className="carousel slide " data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" style={{ width: "200px" }}>
@@ -390,7 +391,7 @@ export default function AiCloud() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       
       {/* above footer */}
       
