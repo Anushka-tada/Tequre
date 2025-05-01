@@ -41,7 +41,7 @@ function page() {
 
                         <div className="col-md-7 col-12 ">
                             <img
-                                src="https://www.infracloud.io/assets/img/botkube/kubernetes-monitoring.svg"
+                                src="/assets/11.jpg"
                                 alt="Logo"
                                 className="img-fluid"
                             />

@@ -76,7 +76,7 @@ function page() {
 
             <div className="col-md-6 col-12 ">
               <img
-                src="https://www.infracloud.io/assets/img/backstage-consulting/backstage-hero.svg"
+                src="/assets/13.jpg"
                 alt="Logo"
                 className="img-fluid"
               />
@@ -250,7 +250,7 @@ function page() {
               {/* Right Side */}
               <div className="col-5  text-end">
                 <img
-                  src="https://www.infracloud.io/assets/img/backstage-consulting/backstage-consulting.svg"
+                  src="/assets/15.jpg"
                   alt="Sample Image"
                   className="img-fluid"
                 />
@@ -264,7 +264,7 @@ function page() {
               {/* Right Side */}
               <div className="col-5  text-start d-flex align-items-center">
                 <img
-                  src="https://www.infracloud.io/assets/img/backstage-consulting/implement-production-grade-backstage.svg"
+                  src="/assets/12.jpg"
                   alt="Sample Image"
                   className="img-fluid"
                 />
@@ -328,7 +328,7 @@ function page() {
               {/* Right Side */}
               <div className="col-5 text-end d-flex align-items-center">
                 <img
-                  src="https://www.infracloud.io/assets/img/backstage-consulting/integration-with-other-tools-or-workflows.svg"
+                  src="/assets/8.jpg"
                   alt="Sample Image"
                   className="img-fluid"
                 />
@@ -342,7 +342,7 @@ function page() {
               {/* Right Side */}
               <div className="col-5  text-start d-flex align-items-center">
                 <img
-                  src="https://www.infracloud.io/assets/img/backstage-consulting/backstage-enterprise-support-and-training.svg"
+                  src="/assets/14.jpg"
                   alt="Sample Image"
                   className="img-fluid"
                 />
@@ -401,7 +401,7 @@ function page() {
               {/* Right Side */}
               <div className="col-5 text-end d-flex align-items-center">
                 <img
-                  src="https://www.infracloud.io/assets/img/backstage-consulting/scalability-planning.svg"
+                  src="/assets/10.jpg"
                   alt="Sample Image"
                   className="img-fluid"
                 />
@@ -415,8 +415,7 @@ function page() {
               {/* Right Side */}
               <div className="col-5  text-start d-flex align-items-center">
                 <img
-                  src="https://www.infracloud.io/assets/img/backstage-consulting/security-and-compliance-integration.svg"
-                  alt="Sample Image"
+                  src="/assets/9.jpg"
                   className="img-fluid"
                 />
               </div>

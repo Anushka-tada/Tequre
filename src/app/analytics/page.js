@@ -344,7 +344,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5 text-end d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/backstage-consulting/scalability-planning.svg"
+                                    src="/assets/10.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
@@ -359,7 +359,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5  text-start d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/backstage-consulting/security-and-compliance-integration.svg"
+                                    src="/assets/9.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />

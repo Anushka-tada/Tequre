@@ -25,7 +25,7 @@ function page() {
 
                         <div className="col-md-6 col-12 ">
                             <img
-                                src="https://www.infracloud.io/assets/img/platform-engineering-consulting/platform-engineering-hero.svg"
+                                src="/assets/7.jpg"
                                 alt="Logo"
                                 className="img-fluid"
                             />
@@ -89,7 +89,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5  text-end">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/platform-engineering-consulting/product-market-fit-assessment.svg"
+                                    src="/assets/3.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
@@ -105,7 +105,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5  text-start d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/platform-engineering-consulting/mvp-strategy-platform-roadmap-consulting.svg"
+                                    src="/assets/6.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
@@ -152,7 +152,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5 text-end d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/platform-engineering-consulting/platform-design-and-development.svg"
+                                    src="/assets/5.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
@@ -167,7 +167,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5  text-start d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/platform-engineering-consulting/integrations-ecosystem-setup.svg"
+                                    src="/assets/2.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
@@ -212,7 +212,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5 text-end d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/platform-engineering-consulting/platform-support-maintenance.svg"
+                                    src="/assets/1.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
@@ -227,7 +227,7 @@ function page() {
                             {/* Right Side */}
                             <div className="col-5  text-start d-flex align-items-center">
                                 <img
-                                    src="https://www.infracloud.io/assets/img/platform-engineering-consulting/platform-engineering-training-support.svg"
+                                    src="/assets/4.jpg"
                                     alt="Sample Image"
                                     className="img-fluid"
                                 />
